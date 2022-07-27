@@ -1,0 +1,45 @@
+.secondPageContainer {
+  margin-bottom: 40px;
+}
+
+.secondPageTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.secondPageTopRightMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.secondPageTopRight {
+  margin-right: 250px;
+}
+
+.secondPageTopRightMenuItem {
+  margin-right: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D3130;
+}
+
+.secondPageTopLeft {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  color: #254F4C;
+}
+
+.secondPageTopRightMenuItem:focus {
+  color: red;
+  border-bottom: 1px solid red;
+}
