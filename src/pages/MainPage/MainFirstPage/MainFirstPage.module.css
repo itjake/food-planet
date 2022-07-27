@@ -1,0 +1,54 @@
+.firstPageContainer {
+  margin-top: 154px;
+}
+
+.firstPageWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstPageTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #254F4C;
+  margin-bottom: 15px;
+  max-width: 403px;
+}
+
+.firstPageSubTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1D3130;
+  margin-bottom: 15px;
+  max-width: 416px;
+}
+
+.firstPageBtn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 147.19%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 12px 55px 13px 35px;
+  background: #FF583E;
+  border-radius: 100px;
+  border: none;
+  position: relative;
+}
+
+.firstPageBtn::before {
+  position: absolute;
+  content: url("../../../Assets/icons/right.svg");
+  right: 15%;
+  top: 29%;
+}
+
