@@ -1,11 +1,13 @@
 .firstPageContainer {
   margin-top: 154px;
+  margin-bottom: 55px;
 }
 
 .firstPageWrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .firstPageTitle {

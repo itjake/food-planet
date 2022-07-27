@@ -10,7 +10,7 @@ const Header = () => {
           <img src={headerLogo} alt="headerLogo"/>
         </div>
         <ul className={styles.headerMenu}>
-          <li><a href="#!" className={styles.headerItemMain}>Главная</a></li>
+          <li><a href="#!" className={styles.headerItem}>Главная</a></li>
           <select name="" id="" className={styles.headerSelect}>
             <option value="0" className={styles.headerSelectItem}>Меню</option>
             <option value="1" className={styles.headerSelectItem}>a</option>
