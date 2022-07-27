@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "./MainSecondPageNew.module.css";
-import MainSecondPageBurger from "../MainSecondPageBurger/MainSecondPageBurger";
 
 const MainSecondPageNew = () => {
   return (<>
