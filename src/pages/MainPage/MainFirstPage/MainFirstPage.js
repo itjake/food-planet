@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./MainFirstPage.module.css";
+import burger from "../../../Assets/img/burger.png";
 
 const MainFirstPage = () => {
   return (
@@ -21,7 +22,7 @@ const MainFirstPage = () => {
               </div>
             </div>
             <div className={styles.firstPageRight}>
-              <img src="../../../Assets/img/burger.png" alt="burger"/>
+              <img src={burger} alt="burger"/>
             </div>
           </div>
         </div>

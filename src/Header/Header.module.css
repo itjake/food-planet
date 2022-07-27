@@ -1,3 +1,7 @@
+.headerContent {
+  margin-top: 10px;
+}
+
 .headerWrapper {
   display: flex;
   justify-content: space-between;

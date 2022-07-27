@@ -1,0 +1,109 @@
+.secondPageTopBurgerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.secondPageBurgerItem {
+  background: #2B4241;
+  border-radius: 40px;
+  position: relative;
+  padding: 15px;
+}
+
+.secondPageBurgerImg {
+  text-align: center;
+  position: relative;
+  content: "";
+  top: -70px;
+}
+
+.secondPageBurgerName {
+  margin-top: -50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.secondPageBurgerDescription {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  max-width: 231px;
+  text-align: center;
+}
+
+.secondPageBurgerPrice {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.secondPageBurgerButton button {
+  color: red;
+  border: none;
+  font-size: 30px;
+  background: none;
+}
+
+.secondPageBurgerButton {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.secondPageBurgerBtnBundle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 147.19%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 12px 55px;
+  border: none;
+  background: #FF583E;
+  border-radius: 40px;
+}
+
+.secondPageBurgerBundle {
+  text-align: center;
+}
+
+.secondPageBurgerCount {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.secondPageBurgerCount {
+  margin: 0 5px;
+}
+
+.secondPageBurgerBtnMinus {
+  display: flex;
+  align-items: center;
+}
+
+.secondPageBurgerBtnPlus {
+  display: flex;
+  align-items: center;
+}
