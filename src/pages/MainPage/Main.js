@@ -1,12 +1,12 @@
 import React from 'react';
 import MainFirstPage from "./MainFirstPage/MainFirstPage";
-import SecondPage from "./MainSecondPage/SecondPage";
+import MainSecondPage from "./MainSecondPage/MainSecondPage";
 
 const Main = () => {
   return (
     <>
       <MainFirstPage/>
-      <SecondPage/>
+      <MainSecondPage/>
     </>
   );
 };

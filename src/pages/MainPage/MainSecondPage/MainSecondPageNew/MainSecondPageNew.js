@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./SecondPage.module.css";
-import MainSecondPageBurger from "./MainSecondPageBurger/MainSecondPageBurger";
+import styles from "./MainSecondPageNew.module.css";
+import MainSecondPageBurger from "../MainSecondPageBurger/MainSecondPageBurger";
 
-const SecondPage = () => {
+const MainSecondPageNew = () => {
   return (<>
       <section className={styles.secondPageContainer}>
         <div className={styles.secondPageContent}>
@@ -24,9 +24,8 @@ const SecondPage = () => {
           </div>
         </div>
       </section>
-      <MainSecondPageBurger/>
     </>
   );
 };
 
-export default SecondPage;
+export default MainSecondPageNew;
