@@ -5,7 +5,7 @@ import {reviews} from "../../../constants";
 const MainFourthPage = () => {
   const newReviews = reviews.map(item => {
     return (
-      <div className={styles.fourthPageReview}>
+      <div className={styles.fourthPageReview} key={item.id}>
         <div className={styles.fourthPageLogo}>
           <img src={item.img} alt="ava"/>
         </div>

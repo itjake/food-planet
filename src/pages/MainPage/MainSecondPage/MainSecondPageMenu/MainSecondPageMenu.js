@@ -28,9 +28,8 @@ const MainSecondPageMenu = () => {
             <div className={styles.secondPageMidBottomRight}>
               <select name="" id="" className={styles.secondPageMidBottomChoice}>
                 <option value="0">По умолчанию</option>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
+                <option value="1">По цене</option>
+                <option value="2">По популярности</option>
               </select>
             </div>
           </div>

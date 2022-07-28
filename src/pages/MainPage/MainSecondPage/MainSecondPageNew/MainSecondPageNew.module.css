@@ -39,7 +39,39 @@
   color: #254F4C;
 }
 
+.secondPageTopRightMenuItem {
+  position: relative;
+}
+
 .secondPageTopRightMenuItem:focus {
   color: red;
-  border-bottom: 1px solid red;
+}
+
+.secondPageTopRightMenuItem::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3%;
+  background-color: black;
+  transition: 0.3s;
+  right: 0;
+}
+
+.secondPageTopRightMenuItem::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 3%;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.secondPageTopRightMenuItem:focus:before {
+  width: 100%;
+}
+
+.secondPageTopRightMenuItem:focus:after {
+  width: 100%;
 }

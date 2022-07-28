@@ -5,7 +5,7 @@ import {pizza} from "../../../../constants";
 const MainSecondPagePizza = () => {
   const newBurger = pizza.map(item => {
     return (
-      <div className={styles.secondPagePizzaItem}>
+      <div className={styles.secondPagePizzaItem} key={item.id}>
         <div className={styles.secondPagePizzaImg}>
           <img src={item.img} alt="burger_first"/>
         </div>

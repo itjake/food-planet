@@ -23,3 +23,7 @@ a {
 a, button {
   cursor: pointer;
 }
+
+button:hover {
+  opacity: .75;
+}

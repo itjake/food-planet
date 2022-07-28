@@ -20,6 +20,10 @@
   margin-bottom: 80px;
 }
 
+.secondPagePizzaItem:hover {
+  transform: scale(1.06);
+}
+
 .secondPagePizzaImg {
   text-align: center;
   position: relative;

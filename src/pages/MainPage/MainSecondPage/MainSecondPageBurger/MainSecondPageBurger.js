@@ -5,7 +5,7 @@ import {burger} from "../../../../constants";
 const MainSecondPageBurger = () => {
   const newBurger = burger.map(item => {
     return (
-      <div className={styles.secondPageBurgerItem}>
+      <div className={styles.secondPageBurgerItem} key={item.id}>
         <div className={styles.secondPageBurgerImg}>
           <img src={item.img} alt="burger_first"/>
         </div>

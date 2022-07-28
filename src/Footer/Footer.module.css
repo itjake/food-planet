@@ -37,28 +37,6 @@ li:last-child {
   align-items: center;
 }
 
-.footerItem {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.footerSelect {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  border: none;
-}
-
-.footerItem:focus {
-  color: red;
-}
 
 .footerItemTel {
   font-family: 'Roboto';
@@ -93,4 +71,43 @@ li:last-child {
   content: url("../Assets/icons/bundle.svg");
   left: -180%;
   top: 5%;
+}
+
+.footerItem {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.footerItem::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3%;
+  background-color: #FFFFFF;
+  transition: 0.3s;
+  right: 0;
+}
+
+.footerItem::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 3%;
+  background-color: #FFFFFF;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.footerItem:focus:before {
+  width: 100%;
+}
+
+.footerItem:focus:after {
+  width: 100%;
 }
