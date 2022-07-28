@@ -27,6 +27,8 @@
   position: relative;
   width: 248px;
   height: 304px;
+  display: flex;
+  flex-direction: column;
 }
 
 .fourthPageDate::before {
