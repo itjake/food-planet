@@ -1,0 +1,81 @@
+.fourthPage {
+  margin-bottom: 90px;
+}
+
+.fourthPageTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  color: #254F4C;
+  margin-bottom: 50px;
+}
+
+.fourthPageReviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fourthPageReview {
+  background: #FFFDFD;
+  border: 2px solid #1D3130;
+  border-radius: 40px;
+  padding: 15px;
+  position: relative;
+  width: 248px;
+  height: 304px;
+}
+
+.fourthPageDate::before {
+  position: absolute;
+  content: url("../../../Assets/icons/pencil.svg");
+  top: -5%;
+  left: 0%;
+}
+
+.fourthPageLogo {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.fourthPageName {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3B7976;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fourthPageName svg {
+  margin-left: 5px;
+}
+
+.fourthPageDescription {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  max-width: 216px;
+  color: #061817;
+  margin-bottom: 15px;
+}
+
+.fourthPageDate {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #3B7976;
+  margin: auto 0 0 0;
+}
