@@ -2,6 +2,7 @@ import React from 'react';
 import MainFirstPage from "./MainFirstPage/MainFirstPage";
 import MainSecondPage from "./MainSecondPage/MainSecondPage";
 import MainThirdPage from "./MainThirdPage/MainThirdPage";
+import MainFourthPage from "./MainFourthPage/MainFourthPage";
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
       <MainFirstPage/>
       <MainSecondPage/>
       <MainThirdPage/>
+      <MainFourthPage/>
     </>
   );
 };
