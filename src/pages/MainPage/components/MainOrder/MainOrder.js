@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from "./MainThirdPage.module.css";
-import car from "../../../Assets/img/car.png";
-import plant from "../../../Assets/img/plant.png";
-import ring from "../../../Assets/img/ring.png";
-import location from "../../../Assets/img/location.png";
+import styles from "./MainOrder.module.css";
+import car from "../../../../Assets/img/car.png";
+import plant from "../../../../Assets/img/plant.png";
+import ring from "../../../../Assets/img/ring.png";
+import location from "../../../../Assets/img/location.png";
 
-const MainThirdPage = () => {
+const MainOrder = () => {
   return (
     <div>
       <section className={styles.thirdPage}>
@@ -67,4 +67,4 @@ const MainThirdPage = () => {
   );
 };
 
-export default MainThirdPage;
+export default MainOrder;

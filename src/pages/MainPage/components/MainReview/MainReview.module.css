@@ -33,7 +33,7 @@
 
 .fourthPageDate::before {
   position: absolute;
-  content: url("../../../Assets/icons/pencil.svg");
+  content: url("../../../../Assets/icons/pencil.svg");
   top: -5%;
   left: 0%;
 }

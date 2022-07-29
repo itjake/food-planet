@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./MainSecondPageMenu.module.css";
+import styles from "./MainMenu.module.css";
 
-const MainSecondPageMenu = () => {
+const MainMenu = () => {
   return (<>
       <section className={styles.secondPageContainer}>
         <div className={styles.secondPageContent}>
@@ -39,4 +39,4 @@ const MainSecondPageMenu = () => {
   );
 };
 
-export default MainSecondPageMenu;
+export default MainMenu;

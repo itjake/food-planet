@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./MainFourthPage.module.css";
-import {reviews} from "../../../constants";
+import styles from "./MainReview.module.css";
+import {reviews} from "../../../../constants";
 
-const MainFourthPage = () => {
+const MainReview = () => {
   const newReviews = reviews.map(item => {
     return (
       <div className={styles.fourthPageReview} key={item.id}>
@@ -52,4 +52,4 @@ const MainFourthPage = () => {
   );
 };
 
-export default MainFourthPage;
+export default MainReview;

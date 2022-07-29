@@ -1,16 +1,23 @@
 import React from 'react';
-import MainFirstPage from "./MainFirstPage/MainFirstPage";
-import MainSecondPage from "./MainSecondPage/MainSecondPage";
-import MainThirdPage from "./MainThirdPage/MainThirdPage";
-import MainFourthPage from "./MainFourthPage/MainFourthPage";
+import MainBlock from "./components/MainBlock/MainBlock";
+import MainSecondPage from "./components/MainSecondPage/MainSecondPage";
+import MainOrder from "./components/MainOrder/MainOrder";
+import MainReview from "./components/MainReview/MainReview";
+import MainNew from "./components/MainNew/MainNew";
+import MainBurger from "./components/MainBurger/MainBurger";
+import MainMenu from "./components/MainMenu/MainMenu";
+import MainPizza from "./components/MainPizza/MainPizza";
 
 const Main = () => {
   return (
     <>
-      <MainFirstPage/>
-      <MainSecondPage/>
-      <MainThirdPage/>
-      <MainFourthPage/>
+      <MainBlock/>
+      <MainNew/>
+      <MainBurger/>
+      <MainMenu/>
+      <MainPizza/>
+      <MainOrder/>
+      <MainReview/>
     </>
   );
 };

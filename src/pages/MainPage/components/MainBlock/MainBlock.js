@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./MainFirstPage.module.css";
-import burger from "../../../Assets/img/burger.png";
+import styles from "./MainBlock.module.css";
+import burger from "../../../../Assets/img/burger.png";
 
-const MainFirstPage = () => {
+const MainBlock = () => {
   return (
     <div>
       <section className={styles.firstPageContainer}>
@@ -31,4 +31,4 @@ const MainFirstPage = () => {
   );
 };
 
-export default MainFirstPage;
+export default MainBlock;

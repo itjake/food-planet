@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./MainSecondPageNew.module.css";
+import styles from "./MainNew.module.css";
 
-const MainSecondPageNew = () => {
+const MainNew = () => {
   return (<>
       <section className={styles.secondPageContainer}>
         <div className={styles.secondPageContent}>
@@ -27,4 +27,4 @@ const MainSecondPageNew = () => {
   );
 };
 
-export default MainSecondPageNew;
+export default MainNew;

@@ -51,7 +51,7 @@ li:last-child {
 
 .footerItemTel::before {
   position: absolute;
-  content: url("../Assets/icons/white_tel.svg");
+  content: url("../../Assets/icons/white_tel.svg");
   left: -20%;
   top: 15%;
 }
@@ -68,7 +68,7 @@ li:last-child {
 
 .footerItemBundle::before {
   position: absolute;
-  content: url("../Assets/icons/bundle.svg");
+  content: url("../../Assets/icons/bundle.svg");
   left: -180%;
   top: 5%;
 }

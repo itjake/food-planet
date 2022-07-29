@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./MainSecondPagePizza.module.css";
+import styles from "./MainPizza.module.css";
 import {pizza} from "../../../../constants";
 
-const MainSecondPagePizza = () => {
+const MainPizza = () => {
   const newBurger = pizza.map(item => {
     return (
       <div className={styles.secondPagePizzaItem} key={item.id}>
@@ -54,4 +54,4 @@ const MainSecondPagePizza = () => {
   );
 };
 
-export default MainSecondPagePizza;
+export default MainPizza;

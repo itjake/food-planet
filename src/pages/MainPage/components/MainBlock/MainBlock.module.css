@@ -49,7 +49,7 @@
 
 .firstPageBtn::before {
   position: absolute;
-  content: url("../../../Assets/icons/right.svg");
+  content: url("../../../../Assets/icons/right.svg");
   right: 15%;
   top: 29%;
 }

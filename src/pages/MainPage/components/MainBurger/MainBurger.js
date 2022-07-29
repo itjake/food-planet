@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./MainSecondPageBurger.module.css";
+import styles from "./MainBurger.module.css";
 import {burger} from "../../../../constants";
 
-const MainSecondPageBurger = () => {
+const MainBurger = () => {
   const newBurger = burger.map(item => {
     return (
       <div className={styles.secondPageBurgerItem} key={item.id}>
@@ -51,4 +51,4 @@ const MainSecondPageBurger = () => {
   );
 };
 
-export default MainSecondPageBurger;
+export default MainBurger;
