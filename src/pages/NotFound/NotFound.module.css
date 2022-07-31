@@ -1,0 +1,58 @@
+.errorPage {
+    background: #F4E4D5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.errorTitle {
+    font-family: 'Inter';
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 200px;
+    line-height: 242px;
+    color: #FA7C70;
+    text-align: center;
+}
+
+.errorSubTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 52px;
+    color: #201F1F;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.errorDescription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #201F1F;
+    margin-bottom: 100px;
+}
+
+.errorBtn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #201F1F;
+    border: 1px solid #FA7C70;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.errorButton {
+    text-align: center;
+    padding-bottom: 100px;
+}
