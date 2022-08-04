@@ -9,26 +9,25 @@ import MainOrder from "./pages/MainPage/components/MainOrder/MainOrder";
 import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
-  return (
-    <>
-      <section className="container">
-        <div className="content">
-          <BrowserRouter>
-            <Header/>
-            <Routes>
-              <Route path="/" element={<Main/>}/>
-              <Route path="/menu" element={<MainMenu/>}/>
-              <Route path="/order" element={<MainOrder/>}/>
-              <Route path="/contacts" element={<Main/>}/>
-              <Route path="*" element={<NotFound/>}/>
-            </Routes>
-            <Main/>
-          </BrowserRouter>
-        </div>
-      </section>
-      <Footer/>
-    </>
-  );
+    return (
+        <>
+            <section className="container">
+                <div className="content">
+                    <BrowserRouter>
+                        <Header/>
+                        <Routes>
+                            <Route path="/" element={<Main/>}/>
+                            <Route path="/menu" element={<MainMenu/>}/>
+                            <Route path="/order" element={<MainOrder/>}/>
+                            <Route path="/contacts" element={<Main/>}/>
+                            <Route path="*" element={<NotFound/>}/>
+                        </Routes>
+                    </BrowserRouter>
+                </div>
+            </section>
+            <Footer/>
+        </>
+    );
 }
 
 export default App;

@@ -54,5 +54,13 @@
 
 .errorButton {
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 68px;
+}
+
+.headerMenu {
+    display: none;
+}
+
+.root {
+    display: none;
 }

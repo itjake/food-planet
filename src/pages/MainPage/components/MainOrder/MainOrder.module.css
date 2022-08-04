@@ -1,47 +1,51 @@
 .thirdPage {
-  margin-bottom: 55px;
+    margin-bottom: 55px;
 }
 
 .thirdTitle {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 25px;
-  line-height: 29px;
-  color: #254F4C;
-  margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+    margin-bottom: 40px;
 }
 
 .thirdPageProducts {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.thirdPageProduct {
+    margin-bottom: 20px;
 }
 
 .thirdPageImg {
-  text-align: center;
-  margin-bottom: 16px;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
 .thirdPageName {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;;
-  text-align: center;
-  color: #254F4C;
-  margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;;
+    text-align: center;
+    color: #254F4C;
+    margin-bottom: 10px;
 }
 
 .thirdPageDescription {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  color: #1D3130;
-  max-width: 256px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1D3130;
+    max-width: 256px;
 }

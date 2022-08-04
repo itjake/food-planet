@@ -1,113 +1,113 @@
 .footerContent {
-  max-width: 1200px;
-  padding: 15px;
-  margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
 }
 
 .footerContainer {
-  background: #254F4C;
-  padding: 30px;
+    background: #254F4C;
+    padding: 30px;
 }
 
 .footerWrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footerMenu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footerMenu li, select {
-  margin-right: 60px;
-  list-style: none;
+    margin-right: 60px;
+    list-style: none;
 }
 
 li:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .headerLogo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 
 .footerItemTel {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-  color: #FFFFFF;
-  position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: relative;
 }
 
 
 .footerItemTel::before {
-  position: absolute;
-  content: url("../../Assets/icons/white_tel.svg");
-  left: -20%;
-  top: 15%;
+    position: absolute;
+    content: url("../../Assets/icons/white_tel.svg");
+    left: -20%;
+    top: 15%;
 }
 
 .footerItemBundle {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  color: #FFFFFF;
-  position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    position: relative;
 }
 
 .footerItemBundle::before {
-  position: absolute;
-  content: url("../../Assets/icons/bundle.svg");
-  left: -180%;
-  top: 5%;
+    position: absolute;
+    content: url("../../Assets/icons/bundle.svg");
+    left: -180%;
+    top: 5%;
 }
 
 .footerItem {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
 }
 
 .footerItem::before {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 3%;
-  background-color: #FFFFFF;
-  transition: 0.3s;
-  right: 0;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3%;
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    right: 0;
 }
 
 .footerItem::after {
-  position: absolute;
-  content: "";
-  width: 0%;
-  height: 3%;
-  background-color: #FFFFFF;
-  bottom: 0;
-  left: 0;
-  transition: 0.3s;
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3%;
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
 }
 
 .footerItem:focus:before {
-  width: 100%;
+    width: 100%;
 }
 
 .footerItem:focus:after {
-  width: 100%;
+    width: 100%;
 }
