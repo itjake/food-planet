@@ -1,14 +1,14 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 import styles from "./NotFound.module.css";
 import ReactDom from "react-dom";
 
 const NotFound = () => {
+
     const returnToMainPage = () => {
         window.location.assign('http://localhost:3000/');
     }
 
-    const getRoot = document.getElementById('root').className = styles.root;
+    document.getElementById('root').className = styles.root;
 
     const A = () => {
         return (
@@ -24,7 +24,7 @@ const NotFound = () => {
                         Ой! Страница, которую вы ищете, не существует. Возможно, он был перемещен или удален.
                     </div>
                     <div className={styles.errorButton}>
-                        <Link to="*" className={styles.errorBtn} onClick={returnToMainPage}>Вернуться на главную</Link>
+                        <button onClick={returnToMainPage} className={styles.errorBtn}>Вернуться на главную</button>
                     </div>
                 </div>
             </section>
