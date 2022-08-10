@@ -84,15 +84,6 @@ li:last-child {
     color: #1D3130;
 }
 
-.headerItemBundle {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    color: #FF583E;
-}
-
 .bundleOne {
     margin-right: 10px;
 }
