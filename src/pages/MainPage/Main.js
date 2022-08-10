@@ -1,6 +1,5 @@
 import React from 'react';
 import MainBlock from "./components/MainBlock/MainBlock";
-import MainSecondPage from "./components/MainSecondPage/MainSecondPage";
 import MainOrder from "./components/MainOrder/MainOrder";
 import MainReview from "./components/MainReview/MainReview";
 import MainNew from "./components/MainNew/MainNew";
@@ -9,17 +8,18 @@ import MainMenu from "./components/MainMenu/MainMenu";
 import MainPizza from "./components/MainPizza/MainPizza";
 
 const Main = () => {
-  return (
-    <>
-      <MainBlock/>
-      <MainNew/>
-      <MainBurger/>
-      <MainMenu/>
-      <MainPizza/>
-      <MainOrder/>
-      <MainReview/>
-    </>
-  );
+
+    return (
+        <>
+            <MainBlock/>
+            <MainNew/>
+            <MainBurger/>
+            <MainMenu/>
+            <MainPizza/>
+            <MainOrder/>
+            <MainReview/>
+        </>
+    );
 };
 
 export default Main;
