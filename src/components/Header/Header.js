@@ -44,10 +44,9 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <Outlet/>
                 </div>
             </section>
-            <Footer/>
+            <Outlet/>
         </>
     );
 };
