@@ -1,141 +1,146 @@
 .secoPizzaTopBurger {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .secondPageTopPizzaWrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
 }
 
 .secondPagePizzaItem {
-  background: #FFFFFF;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 40px;
-  color: #254F4C;
-  position: relative;
-  padding: 15px;
-  margin-bottom: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    color: #254F4C;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 80px;
 }
 
 .secondPagePizzaItem:hover {
-  transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .secondPagePizzaImg {
-  text-align: center;
-  position: relative;
-  content: "";
-  top: -70px;
+    text-align: center;
+    position: relative;
+    content: "";
+    top: -70px;
 }
 
 .secondPagePizzaName {
-  margin-top: -50px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  color: #254F4C;
-  margin-bottom: 10px;
-  text-align: center;
+    margin-top: -50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .secondPagePizzaDescription {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #254F4C;
-  margin-bottom: 5px;
-  max-width: 231px;
-  text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #254F4C;
+    margin-bottom: 5px;
+    max-width: 231px;
+    text-align: center;
 }
 
 .secondPagePizzaPrice {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  color: #254F4C;
-  text-align: center;
-  margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .secondPagePizzaButton button {
-  color: red;
-  border: none;
-  font-size: 30px;
-  background: none;
+    color: red;
+    border: none;
+    font-size: 30px;
+    background: none;
 }
 
 .secondPagePizzaButton {
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .secondPagePizzaBtnBundle {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 147.19%;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  padding: 12px 55px;
-  border: none;
-  background: #254F4C;
-  border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 55px;
+    border: none;
+    background: #254F4C;
+    border-radius: 40px;
 }
 
 .secondPagePizzaBundle {
-  text-align: center;
+    text-align: center;
 }
 
 .secondPagePizzaCount {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  color: #254F4C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #254F4C;
 }
 
 .secondPagePizzaCount {
-  margin: 0 5px;
+    display: flex;
+    align-items: center;
 }
 
 .secondPagePizzaBtnMinus {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 0;
 }
 
 .secondPagePizzaBtnPlus {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 0;
 }
 
 .secondPagePizzaElse {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
 }
 
 .secondPagePizzaElseBtn {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 147.19%;
-  text-transform: uppercase;
-  color: #FF583E;
-  padding: 12px 24px;
-  border: 1px solid #FF583E;
-  border-radius: 40px;
-  background: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-transform: uppercase;
+    color: #FF583E;
+    padding: 12px 24px;
+    border: 1px solid #FF583E;
+    border-radius: 40px;
+    background: none;
 }

@@ -6,18 +6,23 @@ import MainNew from "./components/MainNew/MainNew";
 import MainBurger from "./components/MainBurger/MainBurger";
 import MainMenu from "./components/MainMenu/MainMenu";
 import MainPizza from "./components/MainPizza/MainPizza";
+import Footer from "../../components/Footer/Footer";
 
 const Main = () => {
 
-    return (
-        <>
-            <MainBlock/>
-            <MainNew/>
-            <MainBurger/>
-            <MainMenu/>
-            <MainPizza/>
-            <MainOrder/>
-            <MainReview/>
+    return (<>
+            <section className="container">
+                <div className="content">
+                    <MainBlock/>
+                    <MainNew/>
+                    <MainBurger/>
+                    <MainMenu/>
+                    <MainPizza/>
+                    <MainOrder/>
+                    <MainReview/>
+                </div>
+            </section>
+            <Footer/>
         </>
     );
 };
