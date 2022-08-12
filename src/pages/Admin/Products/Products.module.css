@@ -1,0 +1,21 @@
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.adminPage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adminPageLeft {
+    background: #363740;
+    padding: 25px 40px;
+    width: 20%;
+    height: 649px;
+}
+
+.adminPageRight {
+    width: 80%;
+    padding: 33px;
+}

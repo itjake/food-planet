@@ -1,0 +1,68 @@
+.adminPageRightTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adminPageRightTopRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adminPageRightTopLeft {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+
+.adminPageRightTopRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adminPageRightTopRight div {
+    margin-right: 40px;
+}
+
+.adminPageRightTopRightUser {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #252733;
+    position: relative;
+}
+
+.adminPageRightTopRightUser::before {
+    position: absolute;
+    content: "";
+    height: 35px;
+    border: 1px solid #DFE0EB;
+    top: -25%;
+    left: -17%;
+}
+
+
+.ava {
+    position: absolute;
+    top: -40%;
+    right: -55%;
+    border-radius: 50%;
+}
+
+.adminPageRightMid {
+    margin-top: 50px;
+}
+
+
+
