@@ -1,0 +1,44 @@
+.reviewContent {
+    margin-top: 55px;
+}
+
+th {
+    background: #3B7976;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: black;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 20px;
+}
+
+table {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+td {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+
+.adminBtn {
+    padding: 10px 30px;
+    background: #3B7976;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+}
