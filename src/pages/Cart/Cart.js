@@ -1,37 +1,25 @@
-import React from 'react';
-import styles from "./Cart.module.css";
+import EmptyCart from "./EmptyCart/EmptyCart";
+import ProductCart from "./ProductCart/ProductCart";
+import {useEffect, useState} from "react";
 
 const Cart = () => {
 
-    return (
-        <section className="container">
-            <div className="content">
-                <div className={styles.cartContent}>
-                    <div className={styles.cartTitle}>
-                        Корзина
-                    </div>
-                    <div className={styles.cartSubTitle}>
-                        Товары в вашей корзине
-                    </div>
-                    <div className={styles.cartDescr}>
-                        <div className={styles.cardDescrItem}>Продукт</div>
-                        <ul className={styles.cardDescrItems}>
-                            <li className={styles.cardDescrItem}>Количество</li>
-                            <li className={styles.cardDescrItem}>Цена</li>
-                            <li className={styles.cardDescrItem}>К оплате</li>
-                        </ul>
-                    </div>
-                    <div className={styles.cartProducts}>
-                        <ul className={styles.cartProductItems}>
+    const [cart, setCart] = useState([]);
 
-                        </ul>
-                    </div>
-                    <div className={styles.cartTotal}>
-                        Итого:
-                    </div>
-                </div>
-            </div>
-        </section>
+    const getProducts = () => {
+        const cart = JSON.parse(localStorage.getItem('cart'));
+        if (cart)
+            setCart(Object.values(cart));
+        else {
+            return;
+        }
+    }
+
+    useEffect(getProducts, []);
+
+    return (<>
+            {cart.length === 0 ? <EmptyCart/> : <ProductCart/>}
+        </>
     );
 };
 

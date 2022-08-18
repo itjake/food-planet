@@ -1,0 +1,90 @@
+.email {
+    background: #3B7976;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.wrapperTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 342px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wrapperInput input {
+    border: 1px solid #D2D2D7;
+    border-radius: 5px;
+    height: 35px;
+    padding: 21px 20px;
+    width: 400px;
+    margin-top: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #1D3130;
+}
+
+.wrapperBtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #545155;
+    border-radius: 4px;
+}
+
+.wrapperButton {
+    padding-top: 10px;
+}
+
+.secondWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondWrapperTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.secondWrapperSubTitle {
+    margin-right: 40px;
+    max-width: 453px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.link {
+    padding-left: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: underline;
+}

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from "./MainMenu.module.css";
-import {NavLink, Outlet} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import MainMenuPizza from "./components/MainMenuPizza/MainMenuPizza";
 import MainMenuBurger from "./components/MainMenuBurger/MainMenuBurger";
 import MainMenuSushi from "./components/MainMenuSushi/MainMenuSushi";
@@ -8,6 +8,7 @@ import MainMenuRolls from "./components/MainMenuRolls/MainMenuRolls";
 import MainMenuSalads from "./components/MainMenuSalads/MainMenuSalads";
 import MainMenuDesserts from "./components/MainMenuDesserts/MainMenuDesserts";
 import MainMenuDrinks from "./components/MainMenuDrinks/MainMenuDrinks";
+import Footer from "../../../../components/Footer/Footer";
 
 const MainMenu = () => {
 
@@ -95,20 +96,20 @@ const MainMenu = () => {
                                 </div>
                                 <div className={styles.secondPageMidRight}>
                                     <ul className={styles.secondPageMidRightMenu}>
-                                        <li><NavLink onClick={getPizza} to="/"
+                                        <li><NavLink onClick={getPizza} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Пицца</NavLink></li>
-                                        <li><NavLink onClick={getBurger} to="/"
+                                        <li><NavLink onClick={getBurger} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Бургер</NavLink></li>
-                                        <li><NavLink onClick={getSalads} to="/"
+                                        <li><NavLink onClick={getSalads} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Салаты</NavLink></li>
-                                        <li><NavLink onClick={getSushi} to="/"
+                                        <li><NavLink onClick={getSushi} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Суши</NavLink></li>
-                                        <li><NavLink onClick={getDesserts} to="/"
+                                        <li><NavLink onClick={getDesserts} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Десерты</NavLink>
                                         </li>
-                                        <li><NavLink onClick={getRolls} to="/"
+                                        <li><NavLink onClick={getRolls} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Роллы</NavLink></li>
-                                        <li><NavLink onClick={getDrinks} to="/"
+                                        <li><NavLink onClick={getDrinks} to="/menu"
                                                      className={styles.secondPageMidRightMenuItem}>Напитки</NavLink>
                                         </li>
                                     </ul>
@@ -128,15 +129,15 @@ const MainMenu = () => {
                             </div>
                         </div>
                     </section>
+                    {isVisiblePizza && <MainMenuPizza/>}
+                    {isVisibleBurger && <MainMenuBurger/>}
+                    {isVisibleSushi && <MainMenuSushi/>}
+                    {isVisibleRolls && <MainMenuRolls/>}
+                    {isVisibleSalads && <MainMenuSalads/>}
+                    {isVisibleDesserts && <MainMenuDesserts/>}
+                    {isVisibleDrinks && <MainMenuDrinks/>}
                 </div>
             </section>
-            {isVisiblePizza && <MainMenuPizza/>}
-            {isVisibleBurger && <MainMenuBurger/>}
-            {isVisibleSushi && <MainMenuSushi/>}
-            {isVisibleRolls && <MainMenuRolls/>}
-            {isVisibleSalads && <MainMenuSalads/>}
-            {isVisibleDesserts && <MainMenuDesserts/>}
-            {isVisibleDrinks && <MainMenuDrinks/>}
         </>
     );
 };

@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pizza {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1D3130;
+}
+
+
+.pizza {
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    padding: 44px 92px 86px 92px;
+    margin-bottom: 20px;
+}
+
+.pizza:hover {
+    color: #3751FF;
+    border: 1px solid #3751FF;
+    cursor: pointer;
+}
+
+.pizza:hover {
+    color: #3751FF;
+    border: 1px solid #3751FF;
+}
+
+.S {
+    margin-bottom: 12px;
+}

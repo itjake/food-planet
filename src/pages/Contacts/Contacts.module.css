@@ -1,0 +1,136 @@
+.contacts {
+    margin-top: 0px;
+    padding-bottom: 70px;
+}
+
+.contactsTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #545155;
+}
+
+.contactsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map {
+    width: 770px;
+    height: 325px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.secondWrapperTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.secondWrapperAbout {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 150%;
+    color: #545155;
+    margin-bottom: 20px;
+}
+
+.secondWrapperPhone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #545155;
+    margin-bottom: 20px;
+}
+
+.secondWrapperAddress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #545155;
+    margin-bottom: 20px;
+}
+
+.secondWrapperTime {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #545155;
+    margin-bottom: 20px;
+}
+
+.wrapperTwo {
+    display: flex;
+    align-items: center;
+}
+
+.secondWrapper svg {
+    margin-right: 15px;
+}
+
+.wrapperTwo svg {
+    margin-left: 15px;
+}
+
+.secondWrapperInsta {
+    padding: 10px 5px;
+    border: 1px solid #e6e2e1;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.secondWrapperFaceBook {
+    padding: 10px 5px;
+    border: 1px solid #e6e2e1;
+    border-radius: 10px;
+    margin-left: 15px;
+    background: whitesmoke;
+}
+
+.secondWrapperInsta:hover {
+    background-color: #833ab4;
+    border-color: #833ab4;
+    fill: #fff;
+    transition-duration: .175s;
+    transition: background-color .35s, border-color .35s, color .35s;
+    cursor: pointer;
+
+}
+
+.secondWrapperFaceBook:hover {
+    background-color: #395a9a;
+    border-color: #395a9a;
+    fill: #fff;
+    transition-duration: .175s;
+    transition: background-color .35s, border-color .35s, color .35s;
+    cursor: pointer;
+
+}
+
+.secondWrapperInsta:hover path {
+    fill: #fff;
+}
+
+.secondWrapperFaceBook:hover path {
+    fill: #fff;
+}

@@ -26,8 +26,8 @@ const ProductsMainContent = (props) => {
         title = "Главная"
     } else {
         title = <div className={styles.adminStart}>
-            <p className={styles.admin}>Добро пожаловать Jones Ferdinand.
-                Выберите интересующий вас раздел</p>
+            <p className={styles.admin}>Добро пожаловать Jones Ferdinand.</p>
+            <p>Выберите интересующий вас раздел</p>
         </div>
     }
 

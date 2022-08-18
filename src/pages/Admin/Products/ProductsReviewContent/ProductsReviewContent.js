@@ -48,8 +48,8 @@ const ProductsReviewContent = () => {
             <table border="1">
                 <tr>
                     <th>Имя</th>
-                    <th>Отзывы</th>
-                    <th>Дата отзывов</th>
+                    <th>Отзыв</th>
+                    <th>Дата отзыва</th>
                     <th>Редактировать/Удалить</th>
                 </tr>
                 {

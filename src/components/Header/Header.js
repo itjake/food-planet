@@ -4,6 +4,7 @@ import styles from "./Header.module.css";
 import headerLogo from "../../Assets/img/headerLogo.png"
 import bundle from "../../Assets/icons/bundle.svg"
 import tel from "../../Assets/icons/tel.svg"
+import {Link} from "react-scroll";
 
 const Header = () => {
 
@@ -49,7 +50,7 @@ const Header = () => {
                             <ul className={styles.headerMenu}>
                                 <li><NavLink to="/" className={styles.headerItem}>Главная</NavLink></li>
                                 <li><NavLink to="/menu" className={styles.headerItem}>Меню</NavLink></li>
-                                <li><NavLink to="/order" className={styles.headerItem}>Доставка</NavLink></li>
+                                <li><NavLink to="/deliver" className={styles.headerItem}>Доставка</NavLink></li>
                                 <li><NavLink to="/contacts" className={styles.headerItem}>Контакты</NavLink></li>
                                 <li className={styles.headerItemTel}>
                                     <img src={tel} alt="" className={styles.headerTel}/>

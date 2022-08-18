@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import MainBlock from "./components/MainBlock/MainBlock";
-import MainOrder from "./components/MainOrder/MainOrder";
+import MainOrder from "./components/MainDeliver/MainDeliver";
 import MainReview from "./components/MainReview/MainReview";
 import MainNew from "./components/MainNew/MainNew";
 import MainNewBurger from "./components/MainNew/components/MainNewBurger/MainNewBurger";
