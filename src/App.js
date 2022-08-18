@@ -10,13 +10,14 @@ import NotFound from "./pages/NotFound/NotFound";
 import Products from "./pages/Admin/Products/Products";
 import Cart from "./pages/Cart/Cart";
 import ProductsReviewContent from "./pages/Admin/Products/ProductsReviewContent/ProductsReviewContent";
-import ProductsMainContent from "./pages/Admin/Products/ProductsMainContent/ProductsMainContent";
 import AddReview from "./pages/Admin/Products/ProductsReviewContent/AddReview/AddReview";
 import UpdateReview from "./pages/Admin/Products/ProductsReviewContent/UpdateReview/UpdateReview";
 import ProductsOrder from "./pages/Admin/Products/ProductsOrder/ProductsOrder";
 import ProductsMenu from "./pages/Admin/Products/ProductsMenu/ProductsMenu";
 import ProductsContacts from "./pages/Admin/Products/ProductsContacts/ProductsContacts";
 import ProductsEmployees from "./pages/Admin/Products/ProductsEmployees/ProductsEmployees";
+import ProductsMain from "./pages/Admin/Products/ProductsMain/ProductsMain";
+import Checkout from "./pages/Checkout/Checkout";
 
 function App() {
     return (
@@ -30,15 +31,17 @@ function App() {
                         <Route path="/contacts" element={<Main/>}/>
                         <Route path="/cart" element={<Cart/>}/>
                         <Route path="/add-review" element={<AddReview/>}/>
+                        <Route path="/checkout" element={<Checkout/>}/>
                     </Route>
 
                     <Route path="/admin" element={<Products/>}>
-                        <Route path="/admin/check-order/" element={<ProductsOrder/>}/>
-                        <Route path="/admin/check-menu/" element={<ProductsMenu/>}/>
-                        <Route path="/admin/check-contacts/" element={<ProductsContacts/>}/>
-                        <Route path="/admin/check-review/" element={<ProductsReviewContent/>}/>
-                        <Route path="/admin/check-employees/" element={<ProductsEmployees/>}/>
-                        <Route path="/admin/check-review/update-review/" element={<UpdateReview/>}/>
+                        <Route path="/admin/check-main/:title" element={<ProductsMain/>}/>
+                        <Route path="/admin/check-order/:title" element={<ProductsOrder/>}/>
+                        <Route path="/admin/check-menu/:title" element={<ProductsMenu/>}/>
+                        <Route path="/admin/check-contacts/:title" element={<ProductsContacts/>}/>
+                        <Route path="/admin/check-review/:title" element={<ProductsReviewContent/>}/>
+                        <Route path="/admin/check-employees/:title" element={<ProductsEmployees/>}/>
+                        <Route path="/admin/check-review/:title/:id" element={<UpdateReview/>}/>
                     </Route>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>

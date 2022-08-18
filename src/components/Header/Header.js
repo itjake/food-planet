@@ -1,13 +1,30 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {NavLink, Outlet} from "react-router-dom";
 import styles from "./Header.module.css";
 import headerLogo from "../../Assets/img/headerLogo.png"
 import bundle from "../../Assets/icons/bundle.svg"
 import tel from "../../Assets/icons/tel.svg"
-import Footer from "../Footer/Footer";
 
 const Header = () => {
+
     const [isActive, setIsActive] = useState(false);
+
+    const [cart, setCart] = useState([]);
+
+    const getProducts = () => {
+        const cart = JSON.parse(localStorage.getItem('cart'));
+        if (cart)
+            setCart(Object.values(cart));
+        else {
+            return;
+        }
+    }
+
+    let num = cart.length;
+
+    // let cartItemsNumber = cart.reduce((currentValue, item) => {
+    //     return currentValue + item.index;
+    // }, 0);
 
     window.onscroll = () => {
         if (window.pageYOffset > 50) {
@@ -16,6 +33,9 @@ const Header = () => {
             setIsActive(false);
         }
     }
+
+
+    useEffect(getProducts, [cart])
 
     return (<>
             <section className="container">
@@ -38,7 +58,7 @@ const Header = () => {
                                 <li>
                                     <NavLink to="/cart" className={styles.headerItem}>
                                         <img src={bundle} alt="bundle" className={styles.bundleOne}/>
-                                        1
+                                        {num}
                                     </NavLink>
                                 </li>
                             </ul>

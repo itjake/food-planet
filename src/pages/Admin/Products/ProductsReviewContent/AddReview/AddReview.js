@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from "./AddReview.module.css";
-import {toast} from "react-hot-toast";
+import {toast, Toaster} from "react-hot-toast";
 
 const AddReview = () => {
 
@@ -68,6 +68,7 @@ const AddReview = () => {
                         </button>
                     </div>
                 </form>
+                <Toaster/>
             </div>
         </div>
     );

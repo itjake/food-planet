@@ -1,13 +1,40 @@
 import React from 'react';
 import styles from "./ProductsMainContent.module.css";
 import ava from "../../../../Assets/img/admin-ava.png";
+import {useParams} from "react-router-dom";
+import {toast} from "react-hot-toast";
 
 const ProductsMainContent = (props) => {
+
+    const params = useParams();
+
+    let title = ""
+
+    if (params.title === "order") {
+        title = "Заказы";
+    } else if (params.title === "menu") {
+        title = "Меню";
+    } else if (params.title === "contacts") {
+        title = "Контакты";
+    } else if (params.title === "reviews") {
+        title = "Отзывы";
+    } else if (params.title === "employees") {
+        title = "Сотрудники";
+    } else if (params.title === "update-review") {
+        title = "Отзывы"
+    } else if (params.title === "main") {
+        title = "Главная"
+    } else {
+        title = <div className={styles.adminStart}>
+            <p className={styles.admin}>Добро пожаловать Jones Ferdinand.
+                Выберите интересующий вас раздел</p>
+        </div>
+    }
 
     return (<>
             <div className={styles.adminPageRightTop}>
                 <div className={styles.adminPageRightTopLeft}>
-                    Главная
+                    {title}
                 </div>
                 <div className={styles.adminPageRightTopRight}>
                     <div className={styles.adminPageRightTopRightSearch}>

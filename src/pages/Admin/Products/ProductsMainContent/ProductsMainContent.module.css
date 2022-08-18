@@ -3,6 +3,10 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 40px 0;
 }
 
 .adminPageRightTopRight {
@@ -64,5 +68,18 @@
     margin-top: 50px;
 }
 
+.adminStart {
+    position: absolute;
+    max-width: 500px;
+    top: 230px;
+    left: 30%;
+    background-color: #3B7976;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 
+.admin {
+
+}
 

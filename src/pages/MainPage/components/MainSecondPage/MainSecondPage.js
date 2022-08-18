@@ -1,16 +1,16 @@
 import React from 'react';
 import MainNew from "../MainNew/MainNew";
-import MainBurger from "../MainBurger/MainBurger";
+import MainNewBurger from "../MainNew/components/MainNewBurger/MainNewBurger";
 import MainMenu from "../MainMenu/MainMenu";
-import MainPizza from "../MainPizza/MainPizza";
+import MainMenuPizza from "../MainMenu/components/MainMenuPizza/MainMenuPizza";
 
 const MainSecondPage = () => {
   return (
     <>
       <MainNew/>
-      <MainBurger/>
+      <MainNewBurger/>
       <MainMenu/>
-      <MainPizza/>
+      <MainMenuPizza/>
     </>
   );
 };

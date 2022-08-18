@@ -1,0 +1,132 @@
+.secondPageTopSalads {
+    margin-bottom: 50px;
+}
+
+.secondPageTopSaladsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.secondPageSaladsItem {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 80px;
+    /*width: 264px;*/
+    /*height: 400px;*/
+    padding: 10px 20px 20px 20px;
+}
+
+.secondPageSaladsItem:hover {
+    transform: scale(1.05);
+}
+
+.secondPageSaladsImg {
+    text-align: center;
+    position: relative;
+    content: "";
+    top: -70px;
+}
+
+.secondPageSaladsName {
+    margin-top: -50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2B4241;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secondPageSaladsDescription {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B4241;
+    margin-bottom: 10px;
+    max-width: 231px;
+    text-align: center;
+}
+
+.secondPageSaladsPrice {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2B4241;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secondPageSaladsButton button {
+    color: red;
+    border: none;
+    font-size: 30px;
+    background: none;
+}
+
+.secondPageSaladsButton {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.secondPageSaladsBtnBundle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 55px;
+    border: none;
+    background: #FF583E;
+    border-radius: 40px;
+}
+
+.secondPageSaladsBundle {
+    text-align: center;
+}
+
+.secondPageSaladsCount {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2B4241;
+}
+
+.secondPageSaladsCount {
+    display: flex;
+    align-items: center;
+}
+
+.secondPageSaladsBtnMinus {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+
+.secondPageSaladsBtnPlus {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+
+.salads {
+    width: 200px;
+    height: 160px;
+}

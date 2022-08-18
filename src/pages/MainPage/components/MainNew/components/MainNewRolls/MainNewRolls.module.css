@@ -1,34 +1,37 @@
-.secondPageTopBurger {
+.secondPageTopRolls {
     margin-bottom: 50px;
 }
 
-.secondPageTopBurgerWrapper {
+.secondPageTopRollsWrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.secondPageBurgerItem {
+.secondPageRollsItem {
     background: #2B4241;
     border-radius: 40px;
     position: relative;
     padding: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    /*width: 264px;*/
+    /*height: 400px;*/
+    padding: 10px 20px 20px 20px;
 }
 
-.secondPageBurgerItem:hover {
+.secondPageRollsItem:hover {
     transform: scale(1.05);
 }
 
-.secondPageBurgerImg {
+.secondPageRollsImg {
     text-align: center;
     position: relative;
     content: "";
     top: -70px;
 }
 
-.secondPageBurgerName {
+.secondPageRollsName {
     margin-top: -50px;
     font-family: 'Roboto';
     font-style: normal;
@@ -36,23 +39,23 @@
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.secondPageBurgerDescription {
+.secondPageRollsDescription {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     max-width: 231px;
     text-align: center;
 }
 
-.secondPageBurgerPrice {
+.secondPageRollsPrice {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -63,20 +66,20 @@
     margin-bottom: 10px;
 }
 
-.secondPageBurgerButton button {
+.secondPageRollsButton button {
     color: red;
     border: none;
     font-size: 30px;
     background: none;
 }
 
-.secondPageBurgerButton {
+.secondPageRollsButton {
     margin-bottom: 16px;
     display: flex;
     justify-content: center;
 }
 
-.secondPageBurgerBtnBundle {
+.secondPageRollsBtnBundle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -90,11 +93,11 @@
     border-radius: 40px;
 }
 
-.secondPageBurgerBundle {
+.secondPageRollsBundle {
     text-align: center;
 }
 
-.secondPageBurgerCount {
+.secondPageRollsCount {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -103,21 +106,26 @@
     color: #FFFFFF;
 }
 
-.secondPageBurgerCount {
+.secondPageRollsCount {
     display: flex;
     align-items: center;
 }
 
-.secondPageBurgerBtnMinus {
+.secondPageRollsBtnMinus {
     display: flex;
     align-items: center;
     padding: 0 15px;
     margin-bottom: 0;
 }
 
-.secondPageBurgerBtnPlus {
+.secondPageRollsBtnPlus {
     display: flex;
     align-items: center;
     padding: 0 15px;
     margin-bottom: 0;
+}
+
+.rolls {
+    width: 200px;
+    height: 160px;
 }

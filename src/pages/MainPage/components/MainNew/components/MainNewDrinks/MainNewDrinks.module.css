@@ -1,0 +1,132 @@
+.secondPageTopDrinks {
+    margin-bottom: 50px;
+}
+
+.secondPageTopDrinksWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.secondPageDrinksItem {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 80px;
+    /*width: 264px;*/
+    /*height: 400px;*/
+    padding: 10px 20px 20px 20px;
+}
+
+.secondPageDrinksItem:hover {
+    transform: scale(1.05);
+}
+
+.secondPageDrinksImg {
+    text-align: center;
+    position: relative;
+    content: "";
+    top: -70px;
+}
+
+.secondPageDrinksName {
+    margin-top: -50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2B4241;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secondPageDrinksDescription {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B4241;
+    margin-bottom: 10px;
+    max-width: 231px;
+    text-align: center;
+}
+
+.secondPageDrinksPrice {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2B4241;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secondPageDrinksButton button {
+    color: red;
+    border: none;
+    font-size: 30px;
+    background: none;
+}
+
+.secondPageDrinksButton {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.secondPageDrinksBtnBundle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-transform: uppercase;
+    color: #2B4241;
+    padding: 12px 55px;
+    border: none;
+    background: #FF583E;
+    border-radius: 40px;
+}
+
+.secondPageDrinksBundle {
+    text-align: center;
+}
+
+.secondPageDrinksCount {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2B4241;
+}
+
+.secondPageDrinksCount {
+    display: flex;
+    align-items: center;
+}
+
+.secondPageDrinksBtnMinus {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+
+.secondPageDrinksBtnPlus {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+
+.drinks {
+    width: 200px;
+    height: 160px;
+}
