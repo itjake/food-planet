@@ -27,7 +27,7 @@ const Contacts = () => {
 
     const newContact = contact.map(item => {
         return (
-            <div className={styles.secondWrapper}>
+            <div className={styles.secondWrapper} id="contacts">
                 <div className={styles.secondWrapperTitle}>
                     <img src={planet} alt="" className={styles.food}/>
                 </div>

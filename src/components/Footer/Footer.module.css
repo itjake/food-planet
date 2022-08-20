@@ -82,32 +82,3 @@ li:last-child {
     color: #FFFFFF;
     position: relative;
 }
-
-.footerItem::before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 3%;
-    background-color: #FFFFFF;
-    transition: 0.3s;
-    right: 0;
-}
-
-.footerItem::after {
-    position: absolute;
-    content: "";
-    width: 0%;
-    height: 3%;
-    background-color: #FFFFFF;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s;
-}
-
-.footerItem:focus:before {
-    width: 100%;
-}
-
-.footerItem:focus:after {
-    width: 100%;
-}

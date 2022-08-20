@@ -1,0 +1,32 @@
+.cartProductItems {
+    border-top: 1px solid black;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.products {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #061817;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.cartImg {
+    width: 150px;
+    height: 100px;
+}
+
+.check {
+    text-align: center;
+    margin-bottom: 20px;
+    color: lawngreen;
+}
+
+.notcheck {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}

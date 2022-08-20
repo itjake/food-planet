@@ -9,6 +9,23 @@
     color: #1D1D1F;
 }
 
+.cartContinue a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #3B7976;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.cartContinue svg {
+    width: 10px;
+    height: 12px;
+    margin-right: 10px;
+}
+
 .checkoutPageSubTitle {
     margin-top: 40px;
     font-weight: 600;

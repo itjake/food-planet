@@ -8,7 +8,7 @@ const ProductsMenu = () => {
     const [menu, setMenu] = useState([]);
 
     const deleteMenu = (id) => {
-        const url = "http://localhost:3001/reviews/" + id;
+        const url = "http://localhost:3001/menu/" + id;
 
         const options = {
             method: "DELETE",
@@ -51,21 +51,20 @@ const ProductsMenu = () => {
                     <th>Картинка</th>
                     <th>Описание</th>
                     <th>Цена</th>
-                    <th>Валюта</th>
+                    <th>Удалить/Редактировать</th>
                 </tr>
                 {
                     menu.map(item => {
                         return (
                             <tr>
                                 <td>{item.name}</td>
-                                <td><img src={item.img} alt=""/></td>
+                                <td><img src={item.img} className={styles.img} alt=""/></td>
                                 <td>{item.description}</td>
                                 <td>{item.price}</td>
-                                <td>{item.currency}</td>
                                 <td>
                                     <button className={styles.adminBtn} onClick={() => deleteMenu(item.id)}>Удалить
                                     </button>
-                                    <Link to={`/admin/check-review/update-review/${item.id}`}>
+                                    <Link to={`/admin/check-menu/update-menu/${item.id}`}>
                                         <button className={styles.adminBtn}>Редактировать</button>
                                     </Link>
                                 </td>

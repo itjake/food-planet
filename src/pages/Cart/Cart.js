@@ -1,6 +1,7 @@
 import EmptyCart from "./EmptyCart/EmptyCart";
 import ProductCart from "./ProductCart/ProductCart";
 import {useEffect, useState} from "react";
+import Footer from "../../components/Footer/Footer";
 
 const Cart = () => {
 
@@ -15,10 +16,11 @@ const Cart = () => {
         }
     }
 
-    useEffect(getProducts, []);
+    useEffect(getProducts, [cart]);
 
     return (<>
             {cart.length === 0 ? <EmptyCart/> : <ProductCart/>}
+            <Footer/>
         </>
     );
 };

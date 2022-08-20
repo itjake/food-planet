@@ -25,14 +25,14 @@ const ProductsContacts = () => {
         }
 
         const url = 'http://localhost:3001/contacts/' + //id;
-        fetch(url, options)
-            .then(response => {
-                if (response.ok) {
-                    toast.success('Отзыв обновлен');
-                } else {
-                    toast.error('Поробуйте заново');
-                }
-            })
+            fetch(url, options)
+                .then(response => {
+                    if (response.ok) {
+                        toast.success('Отзыв обновлен');
+                    } else {
+                        toast.error('Поробуйте заново');
+                    }
+                })
 
     }
 
@@ -61,6 +61,7 @@ const ProductsContacts = () => {
                     <th>Рабочее время</th>
                     <th>Ссылка на инстаграм</th>
                     <th>Ссылка на Фэйсбук</th>
+                    <th>Редактировать</th>
                 </tr>
                 {
                     contacts.map(item => {
@@ -71,11 +72,11 @@ const ProductsContacts = () => {
                                 <td>{item.work}</td>
                                 <td>{item.insta}</td>
                                 <td>{item.faceBook}</td>
-                                {/*<td>*/}
-                                {/*    <Link to={`/admin/check-review/update-review/${item.id}`}>*/}
-                                {/*        <button className={styles.adminBtn}>Редактировать</button>*/}
-                                {/*    </Link>*/}
-                                {/*</td>*/}
+                                <td>
+                                    <Link to={`/admin/check-contacts/update-contacts/${item.id}`}>
+                                        <button className={styles.adminBtn}>Редактировать</button>
+                                    </Link>
+                                </td>
                             </tr>
                         );
                     })

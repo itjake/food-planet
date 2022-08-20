@@ -24,11 +24,6 @@ const ProductsMainContent = (props) => {
         title = "Отзывы"
     } else if (params.title === "main") {
         title = "Главная"
-    } else {
-        title = <div className={styles.adminStart}>
-            <p className={styles.admin}>Добро пожаловать Jones Ferdinand.</p>
-            <p>Выберите интересующий вас раздел</p>
-        </div>
     }
 
     return (<>

@@ -8,9 +8,8 @@ import {Link} from "react-scroll";
 
 const Header = () => {
 
-    const [isActive, setIsActive] = useState(false);
-
     const [cart, setCart] = useState([]);
+    const [isActive, setIsActive] = useState(false);
 
     const getProducts = () => {
         const cart = JSON.parse(localStorage.getItem('cart'));
@@ -39,7 +38,7 @@ const Header = () => {
     useEffect(getProducts, [cart])
 
     return (<>
-            <section className="container">
+            <section className="container" id="main">
                 <div className="content">
                     <div className={isActive ? styles.headerActive : ""} id="headerContent">
 
@@ -48,13 +47,22 @@ const Header = () => {
                                 <img src={headerLogo} alt="headerLogo"/>
                             </div>
                             <ul className={styles.headerMenu}>
-                                <li><NavLink to="/" className={styles.headerItem}>Главная</NavLink></li>
-                                <li><NavLink to="/menu" className={styles.headerItem}>Меню</NavLink></li>
-                                <li><NavLink to="/deliver" className={styles.headerItem}>Доставка</NavLink></li>
-                                <li><NavLink to="/contacts" className={styles.headerItem}>Контакты</NavLink></li>
-                                <li className={styles.headerItemTel}>
+                                <li><Link tabindex="0" className={styles.headerItem} to="main" spy={true} smooth={true} offset={-150}
+                                                                        duration={500}
+                                >Главная</Link></li>
+                                <li><Link tabindex="0" className={styles.headerItem} to="menu" spy={true} smooth={true} offset={-150}
+                                                                        duration={500}
+                                >Меню</Link></li>
+                                <li><Link tabindex="0" className={styles.headerItem} to="deliver" spy={true} smooth={true}
+                                                                        offset={-150} duration={500}
+                                                                        className={styles.headerItem}>Доставка</Link>
+                                </li>
+                                <li><Link tabindex="0" className={styles.headerItem} to="contacts" spy={true} smooth={true}
+                                                                        offset={-200} duration={500}
+                                >Контакты</Link></li>
+                                <li className={styles.headerItemTel}><a href="tel:+996500405988">
                                     <img src={tel} alt="" className={styles.headerTel}/>
-                                    +996500405988
+                                    +996500405988</a>
                                 </li>
                                 <li>
                                     <NavLink to="/cart" className={styles.headerItem}>

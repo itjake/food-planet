@@ -28,7 +28,7 @@ const MainReview = () => {
 
 
     return (
-        <section className={styles.fourthPage}>
+        <section className={styles.fourthPage} id="review">
             <div className={styles.fourthPageContent}>
                 <div className={styles.fourthPageTitle}>
                     Отзывы

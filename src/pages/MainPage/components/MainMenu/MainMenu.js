@@ -8,7 +8,6 @@ import MainMenuRolls from "./components/MainMenuRolls/MainMenuRolls";
 import MainMenuSalads from "./components/MainMenuSalads/MainMenuSalads";
 import MainMenuDesserts from "./components/MainMenuDesserts/MainMenuDesserts";
 import MainMenuDrinks from "./components/MainMenuDrinks/MainMenuDrinks";
-import Footer from "../../../../components/Footer/Footer";
 
 const MainMenu = () => {
 
@@ -86,7 +85,7 @@ const MainMenu = () => {
     }
 
     return (<>
-            <section className="container">
+            <section className="container" id="menu">
                 <div className="content">
                     <section className={styles.secondPageContainer}>
                         <div className={styles.secondPageContent}>
@@ -96,20 +95,20 @@ const MainMenu = () => {
                                 </div>
                                 <div className={styles.secondPageMidRight}>
                                     <ul className={styles.secondPageMidRightMenu}>
-                                        <li><NavLink onClick={getPizza} to="/menu"
+                                        <li><NavLink onClick={getPizza} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Пицца</NavLink></li>
-                                        <li><NavLink onClick={getBurger} to="/menu"
+                                        <li><NavLink onClick={getBurger} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Бургер</NavLink></li>
-                                        <li><NavLink onClick={getSalads} to="/menu"
+                                        <li><NavLink onClick={getSalads} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Салаты</NavLink></li>
-                                        <li><NavLink onClick={getSushi} to="/menu"
+                                        <li><NavLink onClick={getSushi} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Суши</NavLink></li>
-                                        <li><NavLink onClick={getDesserts} to="/menu"
+                                        <li><NavLink onClick={getDesserts} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Десерты</NavLink>
                                         </li>
-                                        <li><NavLink onClick={getRolls} to="/menu"
+                                        <li><NavLink onClick={getRolls} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Роллы</NavLink></li>
-                                        <li><NavLink onClick={getDrinks} to="/menu"
+                                        <li><NavLink onClick={getDrinks} to="/"
                                                      className={styles.secondPageMidRightMenuItem}>Напитки</NavLink>
                                         </li>
                                     </ul>

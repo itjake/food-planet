@@ -1,11 +1,13 @@
 import React, {forwardRef, useEffect, useState} from 'react';
-import styles from "../ProductsReviewContent/ProductsReviewContent.module.css";
+import styles from "./ProductsOrder.module.css";
 import {Link} from "react-router-dom";
-import {toast} from "react-hot-toast";
+import {toast, Toaster} from "react-hot-toast";
 
 const ProductsOrder = () => {
 
     const [order, setOrder] = useState([]);
+    const [check, setCheck] = useState("Не принято");
+    const [visible, setVisible] = useState(true);
 
     const deleteOrder = (id) => {
         const url = "http://localhost:3001/order/" + id;
@@ -23,6 +25,12 @@ const ProductsOrder = () => {
                     toast.error("Ошибка. Статус ошибки" + response.status);
                 }
             })
+    }
+
+    const getCheck = () => {
+        setCheck("Принято")
+        setVisible(false)
+        toast.success("Заказ успешно принят")
     }
 
     const getOrder = () => {
@@ -43,55 +51,59 @@ const ProductsOrder = () => {
 
     console.log(order);
 
+    const newOrder = order.map(item => {
+        return (
+            <tr>
+                <td>{item.name}</td>
+                <td>{item.surname}</td>
+                <td>{item.street}</td>
+                <td>{item.flat}</td>
+                <td>{}</td>
+                <td>
+                    {
+                        Object.values(item.order).map(item => {
+                            return (<>
+                                    <ul className={styles.cartProductItems}>
+                                        <li className={styles.products}><img src={item.img}
+                                                                             className={styles.cartImg}
+                                                                             alt=""/></li>
+                                        <li className={styles.products}>{item.name}</li>
+                                        <li className={styles.products}>{item.price} {item.currency}</li>
+                                        <li className={styles.products}>{item.count} штук</li>
+                                    </ul>
+                                </>
+                            )
+                        })
+                    }
+                </td>
+                <td>
+                    {check === "Не принято" ? <p className={styles.notcheck}>{check}</p> :
+                        <p className={styles.check}>{check}</p>}
+                    {visible && <button className={styles.adminBtn} onClick={getCheck}>
+                        Принять
+                    </button>}
+                </td>
+                <Toaster/>
+            </tr>
+        )
+    })
+
+
     return (
-        <div className={styles.reviewContent}>
-            <table border="1">
-                <tr>
-                    <th>Имя</th>
-                    <th>Фамилие</th>
-                    <th>Телефон</th>
-                    <th>Эмайл</th>
-                    <th>Город</th>
-                    <th>Улица</th>
-                    <th>Подъезд</th>
-                    <th>Оплата</th>
-                    <th>Квартира</th>
-                    <th>Коментарий</th>
-                    <th>Заказы</th>
-                    <th>Удалить/Редачить</th>
-                </tr>
-                {
-                    order.map((item) => {
-                        console.log(item.order[6].price);
-                        return (
-                            <tr>
-                                <td>{item.name}</td>
-                                <td>{item.surname}</td>
-                                <td>{item.email}</td>
-                                <td>{item.city}</td>
-                                <td>{item.street}</td>
-                                <td>{item.entrance}</td>
-                                <td>{item.flat}</td>
-                                <td>{item.cash}</td>
-                                <td>{item.comment}</td>
-                                <td><p></p></td>
-                                <td>
-                                    {item.order[6].price}
-                                </td>
-                                <td>
-                                    <button className={styles.adminBtn} onClick={() => deleteOrder(item.id)}>Удалить
-                                    </button>
-                                    <Link to={`/admin/check-review/update-review/${item.id}`}>
-                                        <button className={styles.adminBtn}>Редактировать</button>
-                                    </Link>
-                                </td>
-                            </tr>
-                        );
-                    })
-                }
-            </table>
-        </div>
-    );
+        <table border="1">
+            <tr>
+                <th>Имя</th>
+                <th>Фамилие</th>
+                <th>Телефон</th>
+                <th>Улица</th>
+                <th>Квартира</th>
+                <th>Заказы</th>
+                <th>Статус</th>
+            </tr>
+            {newOrder}
+        </table>
+    )
 };
+
 
 export default ProductsOrder;

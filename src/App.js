@@ -20,6 +20,9 @@ import ProductsMain from "./pages/Admin/Products/ProductsMain/ProductsMain";
 import Checkout from "./pages/Checkout/Checkout";
 import Contacts from "./pages/Contacts/Contacts";
 import Deliver from "./pages/Deliver/Deliver";
+import UpdateMenu from "./pages/Admin/Products/ProductsMenu/UpdateMenu/UpdateMenu";
+import UpdateContacts from "./pages/Admin/Products/ProductsContacts/UpdateContacts/UpdateContacts";
+import AddEmployees from "./pages/Admin/Products/ProductsEmployees/AddEmployees/AddEmployees";
 
 function App() {
     return (
@@ -44,6 +47,9 @@ function App() {
                         <Route path="/admin/check-review/:title" element={<ProductsReviewContent/>}/>
                         <Route path="/admin/check-employees/:title" element={<ProductsEmployees/>}/>
                         <Route path="/admin/check-review/:title/:id" element={<UpdateReview/>}/>
+                        <Route path="/admin/check-menu/:title/:id" element={<UpdateMenu/>}/>
+                        <Route path="/admin/check-contacts/:title/:id" element={<UpdateContacts/>}/>
+                        <Route path="/admin/add-employee" element={<AddEmployees/>}/>
                     </Route>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>

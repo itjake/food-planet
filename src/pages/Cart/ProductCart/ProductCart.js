@@ -8,10 +8,6 @@ const ProductCart = () => {
     const [isDisabled, setIsDisabled] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
 
-    let cartItemsNumber = cart.reduce((currentValue, item) => {
-        return currentValue + (item.count * item.price);
-    }, 0);
-
     const getProducts = () => {
         const cart = JSON.parse(localStorage.getItem('cart'));
         if (cart)
@@ -23,7 +19,6 @@ const ProductCart = () => {
 
     const changeCount = (e, data) => {
         const cart = JSON.parse(localStorage.getItem('cart'));
-        cart[data.id].totalPrice = cartItemsNumber;
         if (e.currentTarget.value > 99) {
             setIsDisabled(true);
         } else if (e.currentTarget.value < 0) {
@@ -36,13 +31,21 @@ const ProductCart = () => {
     }
 
     const deleteItem = (data) => {
-        // let newCart = cart.filter(item => item.id !== data.id ? true : false);
+        let newCart = cart.filter(item => item.id !== data.id ? true : false);
         localStorage.setItem('cart', JSON.stringify(newCart));
         setCart(newCart);
         console.log(newCart)
     }
 
-    useEffect(getProducts, []);
+    let cartItemsNumber = cart.reduce((currentValue, item) => {
+        return currentValue + (item.count * item.price);
+    }, 0);
+
+    const getTotal = () => {
+        localStorage.setItem('total', cartItemsNumber);
+    }
+
+    useEffect(getProducts, [cart]);
 
     const newCart = cart.map(item => {
         return (<>
@@ -95,7 +98,7 @@ const ProductCart = () => {
                         </div>
                         <div className={styles.cartButtonOrder}>
                             <Link to="/checkout">
-                                <button className={styles.cartBtnOrder}>
+                                <button onClick={getTotal} className={styles.cartBtnOrder}>
                                     Оформить заказ
                                 </button>
                             </Link>
