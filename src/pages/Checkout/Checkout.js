@@ -207,13 +207,13 @@ const Checkout = () => {
                                 <h2 className={styles.payment}>Способ оплаты</h2>
                                 <div className={styles.checkoutAddressS}>
                                     <div className={styles.checkoutS}>
-                                        <div><input onClick={getValueCash} type="radio" name="address" check="userCash"
+                                        <div><input onClick={getValueCash} value={cash} type="radio" name="address" check="userCash"
                                                     className={styles.checkoutInputSSSS}/>
                                         </div>
                                         <div>Наличными</div>
                                     </div>
                                     <div className={styles.checkoutS}>
-                                        <div><input value={cash} onClick={getValueBank} type="radio" name="address"
+                                        <div><input value={bank} onClick={getValueBank} type="radio" name="address"
                                                     check="userBank"
                                                     className={styles.checkoutInputSSSS}/>
                                         </div>

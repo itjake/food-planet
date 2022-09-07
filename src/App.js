@@ -49,7 +49,7 @@ function App() {
                         <Route path="/admin/check-review/:title/:id" element={<UpdateReview/>}/>
                         <Route path="/admin/check-menu/:title/:id" element={<UpdateMenu/>}/>
                         <Route path="/admin/check-contacts/:title/:id" element={<UpdateContacts/>}/>
-                        <Route path="/admin/add-employee" element={<AddEmployees/>}/>
+                        <Route path="/admin/add-employee/:title" element={<AddEmployees/>}/>
                     </Route>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>

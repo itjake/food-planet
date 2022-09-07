@@ -60,7 +60,7 @@ const UpdateMenu = () => {
         fetch(url, options)
             .then(response => {
                 if (response.ok) {
-                    toast.success('Контакты обновлен');
+                    toast.success('Контакты обновлены');
                 } else {
                     toast.error('Поробуйте заново');
                 }

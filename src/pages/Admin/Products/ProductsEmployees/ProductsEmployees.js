@@ -17,7 +17,7 @@ const ProductsEmployees = () => {
         fetch(url, options)
             .then(response => {
                 if (response.ok) {
-                    toast.success("Успешно удаленнно");
+                    toast.success("Уволен");
                     getContacts();
                 } else {
                     toast.error("Ошибка. Статус ошибки" + response.status);
@@ -48,9 +48,9 @@ const ProductsEmployees = () => {
                     <div className={styles.name}><img src={item.img} className={styles.img} alt=""/></div>
                     <div className={styles.name}>Имя: {item.name}</div>
                     <div className={styles.name}>Возраст: {item.age}</div>
-                    <div className={styles.name}>Место работы: {item.workplace}</div>
-                    <div className={styles.name}>Стаж работы: {item.expirience}</div>
                     <div className={styles.name}>Зарплата: {item.wage}</div>
+                    <div className={styles.name}>Стаж работы: {item.workplace}</div>
+                    <div className={styles.name}>Место работы: {item.experience}</div>
                     <div className={styles.name}>
                         <button onClick={() => deleteMenu(item.id)} className={styles.btn}>Уволить</button>
                     </div>
@@ -65,7 +65,7 @@ const ProductsEmployees = () => {
                 {newEmployees}
             </div>
             <div className={styles.Btn}>
-                <Link to="/admin/add-employee">
+                <Link to="/admin/add-employee/update-employee">
                     <button className={styles.BTN}>
                         Добавить сотрудника
                     </button>

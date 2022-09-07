@@ -22,10 +22,6 @@ const Header = () => {
 
     let num = cart.length;
 
-    // let cartItemsNumber = cart.reduce((currentValue, item) => {
-    //     return currentValue + item.index;
-    // }, 0);
-
     window.onscroll = () => {
         if (window.pageYOffset > 50) {
             setIsActive(true);
@@ -47,18 +43,22 @@ const Header = () => {
                                 <img src={headerLogo} alt="headerLogo"/>
                             </div>
                             <ul className={styles.headerMenu}>
-                                <li><Link tabindex="0" className={styles.headerItem} to="main" spy={true} smooth={true} offset={-150}
-                                                                        duration={500}
+                                <li><Link tabindex="0" className={styles.headerItem} to="main" spy={true} smooth={true}
+                                          offset={-150}
+                                          duration={500}
                                 >Главная</Link></li>
-                                <li><Link tabindex="0" className={styles.headerItem} to="menu" spy={true} smooth={true} offset={-150}
-                                                                        duration={500}
+                                <li><Link tabindex="0" className={styles.headerItem} to="menu" spy={true} smooth={true}
+                                          offset={-150}
+                                          duration={500}
                                 >Меню</Link></li>
-                                <li><Link tabindex="0" className={styles.headerItem} to="deliver" spy={true} smooth={true}
-                                                                        offset={-150} duration={500}
-                                                                        className={styles.headerItem}>Доставка</Link>
+                                <li><Link tabindex="0" className={styles.headerItem} to="deliver" spy={true}
+                                          smooth={true}
+                                          offset={-150} duration={500}
+                                          className={styles.headerItem}>Доставка</Link>
                                 </li>
-                                <li><Link tabindex="0" className={styles.headerItem} to="contacts" spy={true} smooth={true}
-                                                                        offset={-200} duration={500}
+                                <li><Link tabindex="0" className={styles.headerItem} to="contacts" spy={true}
+                                          smooth={true}
+                                          offset={-200} duration={500}
                                 >Контакты</Link></li>
                                 <li className={styles.headerItemTel}><a href="tel:+996500405988">
                                     <img src={tel} alt="" className={styles.headerTel}/>

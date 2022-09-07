@@ -1,0 +1,1575 @@
+{
+  "reviews": [
+    {
+      "name": "Сергей",
+      "description": "Большое спасибо! 5 пицц доставили даже быстрее чем планировалось. Пицца была горячая и всему коллективу понравилась! День Рождения прошел отлично! :)",
+      "date": "2022-08-18",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Сергей",
+      "description": "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
+      "date": "02-07-2020"
+    },
+    {
+      "id": 3,
+      "name": "Сергей",
+      "description": "Очень избирателен в еде, и Уже в третий раз не разочаровываюсь в Food Planet, советую всем! Жена тоже довольна!",
+      "date": "02-07-2020"
+    },
+    {
+      "name": "Сергей",
+      "date": "2020-07-02",
+      "description": "Хочу поблагодарить за бургер !Очень вкусненький в меру остренький)\nСпасибо,удивили!)",
+      "id": 7
+    }
+  ],
+  "burger": [
+    {
+      "id": 5,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "name": "Сандерс Острый",
+      "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат, cочные острые стрипсы и легендарное куриное филе в острой панировке- лучше просто не бывает!",
+      "price": 149,
+      "currency": "сом",
+      "category": "burger"
+    },
+    {
+      "id": 6,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1861_1273143684.png",
+      "name": "Шефбургер Обычный",
+      "description": "Это сочные  оригинальные стрипсы в пшеничной булочке с черно-белым кунжутом, внуснейший салатик Айсберг, помидорки или соленые огурчики заправленные фирменными соусами.",
+      "price": 164,
+      "currency": "сом",
+      "category": "burger"
+    },
+    {
+      "id": 7,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "name": "Сандерс Обычный",
+      "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат и легендарное куриное филе в оригинальной панировке- лучше просто не бывает!",
+      "price": 249,
+      "currency": "сом",
+      "category": "burger"
+    },
+    {
+      "id": 8,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1862_1078153301.png",
+      "name": "Шефбургер Острый",
+      "description": "«Шефбургер Джуниор Острый» – это сочные острые стрипсы в пшеничной булочке с черно-белым кунжутом, внуснейший салатик Айсберг, помидорки или соленые огурчики заправленные фирменными соусами.",
+      "price": 169,
+      "currency": "сом",
+      "category": "burger"
+    }
+  ],
+  "pizza": [
+    {
+      "id": 9,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_292x292.jpeg",
+      "name": "Сырная",
+      "description": "Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо",
+      "price": 259,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 10,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+      "name": "Пепперони Фреш",
+      "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+      "price": 259,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 11,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_292x292.jpeg",
+      "name": "Ветчина и сыр",
+      "description": "Пепперони, Ароматная говядина, Ветчина из курицы, Шампиньоны, Зеленый перец, Лук, Черные оливки, Моцарелла. ",
+      "price": 289,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 12,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_292x292.jpeg",
+      "name": "Ветчина и грибы",
+      "description": "Ветчина из цыпленка, шампиньоны, моцарелла, томатный соус",
+      "price": 399,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 13,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/3f19abd29d2a477a960992ec2f30782c_292x292.jpeg",
+      "name": "Маргарита",
+      "description": "Фирменный томатный соус, Пепперони, Ароматная говядина, Смесь из 6 сыров. Пикантная",
+      "price": 399,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 14,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/c80217179bae4c1fb5b93571f1bd0e6d_292x292.jpeg",
+      "name": "Чизбургер-пицца",
+      "description": "Мясной соус болоньезе, моцарелла, красный лук, соленые огурчики, томаты, соус бургер",
+      "price": 429,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 15,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/5235270a2b6049a7b350350f8a170390_292x292.jpeg",
+      "name": "Сырный цыпленок",
+      "description": "Цыпленок, сырный соус, моцарелла, томаты, соус альфредо, смесь сыров чеддер и пармезан, чеснок сухой",
+      "price": 429,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 16,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+      "name": "Аррива!",
+      "description": "Соус бургер, цыпленок, соус ранч, чоризо из цыпленка, сладкий перец, красный лук, моцарелла, томаты, чеснок",
+      "price": 429,
+      "currency": "сом",
+      "category": "pizza"
+    }
+  ],
+  "sushi": [
+    {
+      "id": 17,
+      "img": "https://sushivesla.kg/assets/images/products/37/small/ikura-sushi.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 18,
+      "img": "https://sushivesla.kg/assets/images/products/43/small/1123-maguro-karami.png",
+      "name": "Филадельфия крем-брюле",
+      "description": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+      "price": 399,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 19,
+      "img": "https://sushivesla.kg/assets/images/products/41/small/5345345345.png",
+      "name": "Супер Филадельфия",
+      "description": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 20,
+      "img": "https://sushivesla.kg/assets/images/products/38/small/423423423.png",
+      "name": "Тигр мама",
+      "description": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+      "price": 220,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 21,
+      "img": "https://sushivesla.kg/assets/images/products/39/small/3423532423.png",
+      "name": "Супер Филадельфия",
+      "description": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 22,
+      "img": "https://sushivesla.kg/assets/images/products/44/small/thumb-178-goods-photo-big.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 329,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 23,
+      "img": "https://sushivesla.kg/assets/images/products/45/small/thumb-179-goods-photo-big.png",
+      "name": "Филадельфия крем-брюле",
+      "description": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+      "price": 129,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 24,
+      "img": "https://sushivesla.kg/assets/images/products/42/small/1-17.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    }
+  ],
+  "rolls": [
+    {
+      "id": 25,
+      "img": "https://sushivesla.kg/assets/images/products/114/small/thumb-75-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия хит",
+      "description": "Рис, нори, сыр филадельфия, лосось",
+      "price": 299,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 26,
+      "img": "https://sushivesla.kg/assets/images/products/118/small/thumb-79-goods-photo-big-removebg-preview.png",
+      "name": "Авокадный фреш",
+      "description": "Рис, нори, лосось, сыр филадельфия, авокадо, майонез, соус унаги, кунжут",
+      "price": 399,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 27,
+      "img": "https://sushivesla.kg/assets/images/products/112/small/thumb-73-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, лосось.",
+      "price": 349,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 28,
+      "img": "https://sushivesla.kg/assets/images/products/119/small/thumb-80-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия с угрём",
+      "description": "Рис, нори, сыр филадельфия, угорь, лосось",
+      "price": 449,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 29,
+      "img": "https://sushivesla.kg/assets/images/products/112/small/thumb-73-goods-photo-big-removebg-preview.png",
+      "name": "Калифорния с креветкой",
+      "description": "Рис, нори, креветка, авокадо, огурец, икра масаго",
+      "price": 359,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 30,
+      "img": "https://sushivesla.kg/assets/images/products/113/small/thumb-281-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 329,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 31,
+      "img": "https://sushivesla.kg/assets/images/products/116/small/thumb-77-goods-photo-big-removebg-preview.png",
+      "name": "Невада ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, лосось, угорь, соус унаги, кунжут",
+      "price": 459,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 32,
+      "img": "https://sushivesla.kg/assets/images/products/115/small/thumb-76-goods-photo-big-removebg-preview.png",
+      "name": "Канада ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, угорь, соус унаги, кунжут",
+      "price": 259,
+      "currency": "сом",
+      "category": "rolls"
+    }
+  ],
+  "salads": [
+    {
+      "id": 32,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/rukkola-s-krevetkami.jpg",
+      "name": "Цезарь с курицей",
+      "description": "Салат Айсберг, курица, соус цезарь, сыр пармезан, томаты черри, сухари",
+      "price": 259,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 33,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-nasu.jpg",
+      "name": "Цезарь с креветками",
+      "description": "Салат Айсберг, креветки, соус цезарь, сыр пармезан, томаты черри, сухарит",
+      "price": 299,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 34,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-s-rukkoloj.jpg",
+      "name": "Греческий салат",
+      "description": "Томаты черри, огурцы, болгарский перец, сыр рассольный, маслины, масло оливковое",
+      "price": 349,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 35,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-chuka.jpg",
+      "name": "Салат Кайсо",
+      "description": "Лист салата, чука салат, ореховый соус, кунжут",
+      "price": 449,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 36,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/cezar-s-kuricej.jpg",
+      "name": "Салат Нисуаз",
+      "description": "Микс салата, картофель, оливки, помидоры Черри, яйца перепелиные, тунец консервированный",
+      "price": 359,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 37,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/cezar-s-krevetkami.jpg",
+      "name": "Салат Азиатский",
+      "description": "Манго, куриное филе,  Краб, чука, Бобы эдамаме, Ананас, Имбирь, соус сладкий чили",
+      "price": 400,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 38,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-s-rukkoloj.jpg",
+      "name": "Поке с Курицей",
+      "description": "Рис, яйцо пашот, Бобы эдамаме, куриная грудка, грибы Шампиньоны, томаты, огурец, спайси соус",
+      "price": 250,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 39,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/rukkola-s-krevetkami.jpg",
+      "name": "Поке с Лососем",
+      "description": "Рис, лосось, Краб, чука, Бобы эдамаме, Томаты, Вакаме, соус понзу",
+      "price": 370,
+      "currency": "сом",
+      "category": "salads"
+    }
+  ],
+  "desserts": [
+    {
+      "id": 39,
+      "img": "https://api.papajohns.kg//images/catalog/thumbs/full/fe60ff7e4a5c546e80e72b032192a683.webp",
+      "name": "Рулетики с брусникой",
+      "description": "Сладкие рулетики с натуральной брусникой с шоколадной пастой под шоколадной крошкой",
+      "price": 159,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 40,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/956b9840408443948953aff5da6fdacc_292x292.jpeg",
+      "name": "Рулетики с корицей",
+      "description": "Сладкие рулетики с корицей, шоколадной крошкой",
+      "price": 199,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 41,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/f2d2b48c732f4603bdeef816cce7471b_292x292.jpeg",
+      "name": "Фондан",
+      "description": "Десерт с хрустящей корочкой и топлёной шоколадной начинкой",
+      "price": 149,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 42,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/10d465a5fbbe42e883e9e6da291e0fae_292x292.jpeg",
+      "name": "Чизкейк",
+      "description": "Классический американский чизкейк. Нежный десерт обладает в меру сладким бархатистым вкусом",
+      "price": 149,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 43,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/a6bdbd35098f482d861c71e6ea294bb3_292x292.jpeg",
+      "name": "Вишневый пирог",
+      "description": "Это не просто десерт, а вишенка на торте! Творожно-песочное тесто с ягодами, заварным кремом и лепестками миндаля.",
+      "price": 159,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 44,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/bbeb89c7389947c8b502d6ce62a2f6ad_292x292.jpeg",
+      "name": "2 Маффина",
+      "description": "Основное блюдо заканчивается, начинаются маффины с начинкой на шоколадной",
+      "price": 200,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 45,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/8b5aedf0062b4d85badd5f45e64f3c44_292x292.jpeg",
+      "name": "2 Кукиса ",
+      "description": "С одной стороны, кукис — это хорошо, а с другой — два еще лучше. ",
+      "price": 200,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 46,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/1af58f1f7c98475aaf3404d0590a4065_292x292.jpeg",
+      "name": "Сырники",
+      "description": "Сырники можно есть не только на завтрак. Нежные сырники со сгущенкой идеально сочетаются с любыми напитками",
+      "price": 370,
+      "currency": "сом",
+      "category": "desserts"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 46,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/b5f113ca1255415a89e6c2b542484a27_292x292.jpeg",
+      "name": "Морс Вишня",
+      "description": "Напиток со вкусом ностальгии — летние каникулы, теплые ночи и уютные дачные посиделки.",
+      "price": 115,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 47,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/9bb37146e606409099fbffc1eef751d3_292x292.jpeg",
+      "name": "Морс Клюква",
+      "description": "Эта ягода хитра! Наш фирменный морс для любителей сладкой кислинки",
+      "price": 115,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 48,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/dca53185dd344518acfa07fa453160c9_292x292.jpeg",
+      "name": "Кока-кола",
+      "description": " Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 149,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 49,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/f043baaebf9444f7b703a3d63c507d2b_292x292.jpeg",
+      "name": "Морс Черная",
+      "description": "Для усиления ощущений от морса рекомендуем закрыть глаза и представить себя у бабушки в саду",
+      "price": 149,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 50,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/7f94b15a912f441c86b25d38b55c9530_292x292.jpeg",
+      "name": "Fanta",
+      "description": "Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 159,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 51,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/e2fcf524bce74544ba7915a74f485446_292x292.jpeg",
+      "name": "Кофе Американо",
+      "description": "Пара глотков горячего Американо, и вы будете готовы покорять этот день",
+      "price": 200,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 52,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/cf3414e1536b4fb0b715f68f9ec1793b_292x292.jpeg",
+      "name": "Sprite ",
+      "description": "Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 200,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 53,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/af8e68f81761479b9e745f4592e67ef3_292x292.jpeg",
+      "name": "Кофе Латте",
+      "description": "Когда хочется нежную молочную пенку, на помощь приходит классический латте",
+      "price": 370,
+      "currency": "сом",
+      "category": "drinks"
+    }
+  ],
+  "burger-main": [
+    {
+      "id": 54,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "name": "Сандерс Острый",
+      "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат, cочные острые стрипсы и легендарное куриное филе в острой панировке- лучше просто не бывает!",
+      "price": 149,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 55,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1861_1273143684.png",
+      "name": "Шефбургер Обычный",
+      "description": "Это сочные  оригинальные стрипсы в пшеничной булочке с черно-белым кунжутом, внуснейший салатик Айсберг, помидорки или соленые огурчики заправленные фирменными соусами.",
+      "price": 164,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 56,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "name": "Сандерс Обычный",
+      "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат и легендарное куриное филе в оригинальной панировке- лучше просто не бывает!",
+      "price": 249,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 57,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1862_1078153301.png",
+      "name": "Шефбургер Острый",
+      "description": "«Шефбургер Джуниор Острый» – это сочные острые стрипсы в пшеничной булочке с черно-белым кунжутом, внуснейший салатик Айсберг, помидорки или соленые огурчики заправленные фирменными соусами.",
+      "price": 169,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 58,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1053_1385774525.png",
+      "name": "Ай-Твистер Чиз",
+      "description": "Вкус сочной курочки……с нежным сыром и сырным соусом в новом Ай-твистер Чиз в KFC! Сырные недели в KFC - настоящая любовь с первого кусочка!",
+      "price": 79,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 59,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_897_1014477979.png",
+      "name": "Твистер оригинальный",
+      "description": "Кусочки нежнейшего куриного филе в хрустящей острой или оригинальной панировке с сочными листьями салата, кусочками помидора и нежным соусом",
+      "price": 175,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 61,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1613_383704842.png",
+      "name": "Твистер Джуниор",
+      "description": "Сырная лепешка, два сочных оригинальных стрипса из куриного филе в панировке, горчица, кетчуп, сыр, маринованные огурчики и лук – идеальный перекус!",
+      "price": 129,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 62,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1868_1412785688.png",
+      "name": "Чикен Пита",
+      "description": "Хрустящая пита , с  вкуснейшими овощами, ароматными травами, оригинальным соусом и легендарное куриное филеприготовленное экспертами в курице – только в KFC!",
+      "price": 199,
+      "currency": "сом",
+      "category": "burger-main"
+    }
+  ],
+  "pizza-new": [
+    {
+      "id": 63,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_292x292.jpeg",
+      "name": "Сырная",
+      "description": "Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо",
+      "price": 259,
+      "currency": "сом",
+      "category": "pizza-new"
+    },
+    {
+      "id": 64,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+      "name": "Пепперони Фреш",
+      "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+      "price": 259,
+      "currency": "сом",
+      "category": "pizza-new"
+    },
+    {
+      "id": 65,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_292x292.jpeg",
+      "name": "Ветчина и сыр",
+      "description": "Пепперони, Ароматная говядина, Ветчина из курицы, Шампиньоны, Зеленый перец, Лук, Черные оливки, Моцарелла. ",
+      "price": 289,
+      "currency": "сом",
+      "category": "pizza-new"
+    },
+    {
+      "id": 66,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_292x292.jpeg",
+      "name": "Ветчина и грибы",
+      "description": "Ветчина из цыпленка, шампиньоны, моцарелла, томатный соус",
+      "price": 399,
+      "currency": "сом",
+      "category": "pizza-new"
+    }
+  ],
+  "sushi-new": [
+    {
+      "id": 67,
+      "img": "https://sushivesla.kg/assets/images/products/37/small/ikura-sushi.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi-new"
+    },
+    {
+      "id": 68,
+      "img": "https://sushivesla.kg/assets/images/products/43/small/1123-maguro-karami.png",
+      "name": "Филадельфия крем-брюле",
+      "description": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+      "price": 399,
+      "currency": "сом",
+      "category": "sushi-new"
+    },
+    {
+      "id": 69,
+      "img": "https://sushivesla.kg/assets/images/products/41/small/5345345345.png",
+      "name": "Супер Филадельфия",
+      "description": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi-new"
+    },
+    {
+      "id": 70,
+      "img": "https://sushivesla.kg/assets/images/products/38/small/423423423.png",
+      "name": "Тигр мама",
+      "description": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+      "price": 220,
+      "currency": "сом",
+      "category": "sushi-new"
+    }
+  ],
+  "rolls-new": [
+    {
+      "id": 71,
+      "img": "https://sushivesla.kg/assets/images/products/114/small/thumb-75-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия хит",
+      "description": "Рис, нори, сыр филадельфия, лосось",
+      "price": 299,
+      "currency": "сом",
+      "category": "rolls-new"
+    },
+    {
+      "id": 72,
+      "img": "https://sushivesla.kg/assets/images/products/118/small/thumb-79-goods-photo-big-removebg-preview.png",
+      "name": "Авокадный фреш",
+      "description": "Рис, нори, лосось, сыр филадельфия, авокадо, майонез, соус унаги, кунжут",
+      "price": 399,
+      "currency": "сом",
+      "category": "rolls-new"
+    },
+    {
+      "id": 73,
+      "img": "https://sushivesla.kg/assets/images/products/112/small/thumb-73-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, лосось.",
+      "price": 349,
+      "currency": "сом",
+      "category": "rolls-new"
+    },
+    {
+      "id": 74,
+      "img": "https://sushivesla.kg/assets/images/products/119/small/thumb-80-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия с угрём",
+      "description": "Рис, нори, сыр филадельфия, угорь, лосось",
+      "price": 449,
+      "currency": "сом",
+      "category": "rolls-new"
+    }
+  ],
+  "salads-new": [
+    {
+      "id": 75,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/rukkola-s-krevetkami.jpg",
+      "name": "Цезарь с курицей",
+      "description": "Салат Айсберг, курица, соус цезарь, сыр пармезан, томаты черри, сухари",
+      "price": 259,
+      "currency": "сом",
+      "category": "salads-new"
+    },
+    {
+      "id": 76,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-nasu.jpg",
+      "name": "Цезарь с креветками",
+      "description": "Салат Айсберг, креветки, соус цезарь, сыр пармезан, томаты черри, сухарит",
+      "price": 299,
+      "currency": "сом",
+      "category": "salads-new"
+    },
+    {
+      "id": 77,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-s-rukkoloj.jpg",
+      "name": "Греческий салат",
+      "description": "Томаты черри, огурцы, болгарский перец, сыр рассольный, маслины, масло оливковое",
+      "price": 349,
+      "currency": "сом",
+      "category": "salads-new"
+    },
+    {
+      "id": 78,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-chuka.jpg",
+      "name": "Салат Кайсо",
+      "description": "Лист салата, чука салат, ореховый соус, кунжут",
+      "price": 449,
+      "currency": "сом",
+      "category": "salads-new"
+    }
+  ],
+  "desserts-new": [
+    {
+      "id": 79,
+      "img": "https://api.papajohns.kg//images/catalog/thumbs/full/fe60ff7e4a5c546e80e72b032192a683.webp",
+      "name": "Рулетики с брусникой",
+      "description": "Сладкие рулетики с натуральной брусникой с шоколадной пастой под шоколадной крошкой",
+      "price": 159,
+      "currency": "сом",
+      "category": "desserts-new"
+    },
+    {
+      "id": 80,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/956b9840408443948953aff5da6fdacc_292x292.jpeg",
+      "name": "Рулетики с корицей",
+      "description": "Сладкие рулетики с корицей, шоколадной крошкой",
+      "price": 199,
+      "currency": "сом",
+      "category": "desserts-new"
+    },
+    {
+      "id": 81,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/f2d2b48c732f4603bdeef816cce7471b_292x292.jpeg",
+      "name": "Фондан",
+      "description": "Десерт с хрустящей корочкой и топлёной шоколадной начинкой",
+      "price": 149,
+      "currency": "сом",
+      "category": "desserts-new"
+    },
+    {
+      "id": 82,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/10d465a5fbbe42e883e9e6da291e0fae_292x292.jpeg",
+      "name": "Чизкейк",
+      "description": "Классический американский чизкейк. Нежный десерт обладает в меру сладким бархатистым вкусом",
+      "price": 149,
+      "currency": "сом",
+      "category": "desserts-new"
+    }
+  ],
+  "drinks-new": [
+    {
+      "id": 83,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/b5f113ca1255415a89e6c2b542484a27_292x292.jpeg",
+      "name": "Морс Вишня",
+      "description": "Напиток со вкусом ностальгии — летние каникулы, теплые ночи и уютные дачные посиделки.",
+      "price": 115,
+      "currency": "сом",
+      "category": "drinks-new"
+    },
+    {
+      "id": 84,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/9bb37146e606409099fbffc1eef751d3_292x292.jpeg",
+      "name": "Морс Клюква",
+      "description": "Эта ягода хитра! Наш фирменный морс для любителей сладкой кислинки",
+      "price": 115,
+      "currency": "сом",
+      "category": "drinks-new"
+    },
+    {
+      "id": 85,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/dca53185dd344518acfa07fa453160c9_292x292.jpeg",
+      "name": "Кока-кола",
+      "description": " Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 149,
+      "currency": "сом",
+      "category": "drinks-new"
+    },
+    {
+      "id": 86,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/f043baaebf9444f7b703a3d63c507d2b_292x292.jpeg",
+      "name": "Морс Черная",
+      "description": "Для усиления ощущений от морса рекомендуем закрыть глаза и представить себя у бабушки в саду",
+      "price": 149,
+      "currency": "сом",
+      "category": "drinks-new"
+    }
+  ],
+  "orders": [
+    {
+      "name": "tokonov",
+      "surname": "tagai",
+      "phone": "+996555334651",
+      "email": "tagai.tokonov5@mail.ru",
+      "city": "Bishkek",
+      "street": "Sverdlovsk street. Chui Avenue 16",
+      "entrance": "второй",
+      "flat": "48",
+      "cash": "",
+      "comment": "как можно быстрее",
+      "order": [
+        {
+          "id": 5,
+          "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+          "name": "Сандерс Острый",
+          "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат, cочные острые стрипсы и легендарное куриное филе в острой панировке- лучше просто не бывает!",
+          "price": 149,
+          "currency": "сом",
+          "category": "burger",
+          "count": 9
+        },
+        {
+          "id": 10,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+          "name": "Пепперони Фреш",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+          "price": 259,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 259
+        },
+        {
+          "id": 11,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_292x292.jpeg",
+          "name": "Ветчина и сыр",
+          "description": "Пепперони, Ароматная говядина, Ветчина из курицы, Шампиньоны, Зеленый перец, Лук, Черные оливки, Моцарелла. ",
+          "price": 289,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 289
+        },
+        {
+          "id": 16,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+          "name": "Аррива!",
+          "description": "Соус бургер, цыпленок, соус ранч, чоризо из цыпленка, сладкий перец, красный лук, моцарелла, томаты, чеснок",
+          "price": 429,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 5,
+          "totalPrice": 2145
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "tokonov",
+      "surname": "tagai",
+      "phone": "+996555334651",
+      "email": "tagai.tokonov5@mail.ru",
+      "city": "Bishkek",
+      "street": "Sverdlovsk street. Chui Avenue 16",
+      "entrance": "2",
+      "flat": "48",
+      "cash": "",
+      "comment": "Как можно быстрее",
+      "order": [
+        {
+          "id": 10,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+          "name": "Пепперони Фреш",
+          "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+          "price": 259,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 259
+        },
+        {
+          "id": 11,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_292x292.jpeg",
+          "name": "Ветчина и сыр",
+          "description": "Пепперони, Ароматная говядина, Ветчина из курицы, Шампиньоны, Зеленый перец, Лук, Черные оливки, Моцарелла. ",
+          "price": 289,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 289
+        },
+        {
+          "id": 12,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_292x292.jpeg",
+          "name": "Ветчина и грибы",
+          "description": "Ветчина из цыпленка, шампиньоны, моцарелла, томатный соус",
+          "price": 399,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 399
+        },
+        {
+          "id": 14,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/c80217179bae4c1fb5b93571f1bd0e6d_292x292.jpeg",
+          "name": "Чизбургер-пицца",
+          "description": "Мясной соус болоньезе, моцарелла, красный лук, соленые огурчики, томаты, соус бургер",
+          "price": 429,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 429
+        },
+        {
+          "id": 15,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/5235270a2b6049a7b350350f8a170390_292x292.jpeg",
+          "name": "Сырный цыпленок",
+          "description": "Цыпленок, сырный соус, моцарелла, томаты, соус альфредо, смесь сыров чеддер и пармезан, чеснок сухой",
+          "price": 429,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 429
+        },
+        {
+          "id": 16,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+          "name": "Аррива!",
+          "description": "Соус бургер, цыпленок, соус ранч, чоризо из цыпленка, сладкий перец, красный лук, моцарелла, томаты, чеснок",
+          "price": 429,
+          "currency": "сом",
+          "category": "pizza",
+          "count": 1,
+          "totalPrice": 429
+        },
+        {
+          "id": 19,
+          "img": "https://sushivesla.kg/assets/images/products/41/small/5345345345.png",
+          "name": "Супер Филадельфия",
+          "description": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+          "price": 299,
+          "currency": "сом",
+          "category": "sushi",
+          "count": 12,
+          "totalPrice": 299
+        },
+        {
+          "id": 39,
+          "img": "https://api.papajohns.kg//images/catalog/thumbs/full/fe60ff7e4a5c546e80e72b032192a683.webp",
+          "name": "Рулетики с брусникой",
+          "description": "Сладкие рулетики с натуральной брусникой с шоколадной пастой под шоколадной крошкой",
+          "price": 159,
+          "currency": "сом",
+          "category": "desserts",
+          "count": 1,
+          "totalPrice": 159
+        },
+        {
+          "id": 40,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/956b9840408443948953aff5da6fdacc_292x292.jpeg",
+          "name": "Рулетики с корицей",
+          "description": "Сладкие рулетики с корицей, шоколадной крошкой",
+          "price": 199,
+          "currency": "сом",
+          "category": "desserts",
+          "count": 1,
+          "totalPrice": 199
+        },
+        {
+          "id": 41,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/f2d2b48c732f4603bdeef816cce7471b_292x292.jpeg",
+          "name": "Фондан",
+          "description": "Десерт с хрустящей корочкой и топлёной шоколадной начинкой",
+          "price": 149,
+          "currency": "сом",
+          "category": "desserts",
+          "count": 1,
+          "totalPrice": 149
+        },
+        {
+          "id": 48,
+          "img": "https://cdn.dodostatic.net/static/Img/Products/dca53185dd344518acfa07fa453160c9_292x292.jpeg",
+          "name": "Кока-кола",
+          "description": " Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+          "price": 149,
+          "currency": "сом",
+          "category": "drinks",
+          "count": 1
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "phone": "+996500405988121231231",
+      "cafeAddress": "ул. Байтик Баатыра (Советская), 96",
+      "work": "Пн-вс: 10:00 - 21:00 без выходных",
+      "insta": "https://www.instagram.com/papajohns.kg",
+      "faceBook": "https://www.facebook.com/PapaJohns.kg",
+      "id": 1
+    }
+  ],
+  "emails": [
+    {
+      "emailUser": "asdasadsadsdas@",
+      "id": 1
+    },
+    {
+      "emailUser": "adsdasadsadsads",
+      "id": 2
+    },
+    {
+      "emailUser": "adsdasadsadsads",
+      "id": 3
+    },
+    {
+      "emailUser": "adsdasadsadsads@",
+      "id": 4
+    },
+    {
+      "emailUser": "asddasdasdas",
+      "id": 5
+    },
+    {
+      "emailUser": "asdadsads",
+      "id": 6
+    },
+    {
+      "emailUser": "asdasd@mail.ru",
+      "id": 7
+    },
+    {
+      "emailUser": "asddasdasdasads",
+      "id": 8
+    },
+    {
+      "emailUser": "tagai.tokonov5@mail.ru",
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ],
+  "menu": [
+    {
+      "id": 9,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/e2393e247dc64ecbbf23c82243c0a399_292x292.jpeg",
+      "name": "Сырная",
+      "description": "Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо",
+      "price": 259,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 10,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+      "name": "Пепперони Фреш",
+      "description": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+      "price": 259,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 11,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/3fe12c4bb05c470c9cb45fb423b7c049_292x292.jpeg",
+      "name": "Ветчина и сыр",
+      "description": "Пепперони, Ароматная говядина, Ветчина из курицы, Шампиньоны, Зеленый перец, Лук, Черные оливки, Моцарелла. ",
+      "price": 289,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 12,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/be07674c38c54fd78f878a33988a4373_292x292.jpeg",
+      "name": "Ветчина и грибы",
+      "description": "Ветчина из цыпленка, шампиньоны, моцарелла, томатный соус",
+      "price": 399,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 13,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/3f19abd29d2a477a960992ec2f30782c_292x292.jpeg",
+      "name": "Маргарита",
+      "description": "Фирменный томатный соус, Пепперони, Ароматная говядина, Смесь из 6 сыров. Пикантная",
+      "price": 399,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 14,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/c80217179bae4c1fb5b93571f1bd0e6d_292x292.jpeg",
+      "name": "Чизбургер-пицца",
+      "description": "Мясной соус болоньезе, моцарелла, красный лук, соленые огурчики, томаты, соус бургер",
+      "price": 429,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 15,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/5235270a2b6049a7b350350f8a170390_292x292.jpeg",
+      "name": "Сырный цыпленок",
+      "description": "Цыпленок, сырный соус, моцарелла, томаты, соус альфредо, смесь сыров чеддер и пармезан, чеснок сухой",
+      "price": 429,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 16,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/ebbfdf6f8fa74935af77b784a1ff2e1d_292x292.jpeg",
+      "name": "Аррива!",
+      "description": "Соус бургер, цыпленок, соус ранч, чоризо из цыпленка, сладкий перец, красный лук, моцарелла, томаты, чеснок",
+      "price": 429,
+      "currency": "сом",
+      "category": "pizza"
+    },
+    {
+      "id": 17,
+      "img": "https://sushivesla.kg/assets/images/products/37/small/ikura-sushi.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 18,
+      "img": "https://sushivesla.kg/assets/images/products/43/small/1123-maguro-karami.png",
+      "name": "Филадельфия крем-брюле",
+      "description": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+      "price": 399,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 19,
+      "img": "https://sushivesla.kg/assets/images/products/41/small/5345345345.png",
+      "name": "Супер Филадельфия",
+      "description": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 20,
+      "img": "https://sushivesla.kg/assets/images/products/38/small/423423423.png",
+      "name": "Тигр мама",
+      "description": "Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...",
+      "price": 220,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 21,
+      "img": "https://sushivesla.kg/assets/images/products/39/small/3423532423.png",
+      "name": "Супер Филадельфия",
+      "description": "Действительно много семги, сливочный сыр, огурец, рис, н...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 22,
+      "img": "https://sushivesla.kg/assets/images/products/44/small/thumb-178-goods-photo-big.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 329,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 23,
+      "img": "https://sushivesla.kg/assets/images/products/45/small/thumb-179-goods-photo-big.png",
+      "name": "Филадельфия крем-брюле",
+      "description": "Сливочный сыр, семга татаки с тростниковым сахаром, соус у...",
+      "price": 129,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 24,
+      "img": "https://sushivesla.kg/assets/images/products/42/small/1-17.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 299,
+      "currency": "сом",
+      "category": "sushi"
+    },
+    {
+      "id": 25,
+      "img": "https://sushivesla.kg/assets/images/products/114/small/thumb-75-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия хит",
+      "description": "Рис, нори, сыр филадельфия, лосось",
+      "price": 299,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 26,
+      "img": "https://sushivesla.kg/assets/images/products/118/small/thumb-79-goods-photo-big-removebg-preview.png",
+      "name": "Авокадный фреш",
+      "description": "Рис, нори, лосось, сыр филадельфия, авокадо, майонез, соус унаги, кунжут",
+      "price": 399,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 27,
+      "img": "https://sushivesla.kg/assets/images/products/112/small/thumb-73-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, лосось.",
+      "price": 349,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 28,
+      "img": "https://sushivesla.kg/assets/images/products/119/small/thumb-80-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия с угрём",
+      "description": "Рис, нори, сыр филадельфия, угорь, лосось",
+      "price": 449,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 29,
+      "img": "https://sushivesla.kg/assets/images/products/112/small/thumb-73-goods-photo-big-removebg-preview.png",
+      "name": "Калифорния с креветкой",
+      "description": "Рис, нори, креветка, авокадо, огурец, икра масаго",
+      "price": 359,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 30,
+      "img": "https://sushivesla.kg/assets/images/products/113/small/thumb-281-goods-photo-big-removebg-preview.png",
+      "name": "Филадельфия кранч",
+      "description": "Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...",
+      "price": 329,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 31,
+      "img": "https://sushivesla.kg/assets/images/products/116/small/thumb-77-goods-photo-big-removebg-preview.png",
+      "name": "Невада ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, лосось, угорь, соус унаги, кунжут",
+      "price": 459,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 32,
+      "img": "https://sushivesla.kg/assets/images/products/115/small/thumb-76-goods-photo-big-removebg-preview.png",
+      "name": "Канада ролл",
+      "description": "Рис, нори, сыр филадельфия, огурец, угорь, соус унаги, кунжут",
+      "price": 259,
+      "currency": "сом",
+      "category": "rolls"
+    },
+    {
+      "id": 32,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/rukkola-s-krevetkami.jpg",
+      "name": "Цезарь с курицей",
+      "description": "Салат Айсберг, курица, соус цезарь, сыр пармезан, томаты черри, сухари",
+      "price": 259,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 33,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-nasu.jpg",
+      "name": "Цезарь с креветками",
+      "description": "Салат Айсберг, креветки, соус цезарь, сыр пармезан, томаты черри, сухарит",
+      "price": 299,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 34,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-s-rukkoloj.jpg",
+      "name": "Греческий салат",
+      "description": "Томаты черри, огурцы, болгарский перец, сыр рассольный, маслины, масло оливковое",
+      "price": 349,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 35,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-chuka.jpg",
+      "name": "Салат Кайсо",
+      "description": "Лист салата, чука салат, ореховый соус, кунжут",
+      "price": 449,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 36,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/cezar-s-kuricej.jpg",
+      "name": "Салат Нисуаз",
+      "description": "Микс салата, картофель, оливки, помидоры Черри, яйца перепелиные, тунец консервированный",
+      "price": 359,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 37,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/cezar-s-krevetkami.jpg",
+      "name": "Салат Азиатский",
+      "description": "Манго, куриное филе,  Краб, чука, Бобы эдамаме, Ананас, Имбирь, соус сладкий чили",
+      "price": 400,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 38,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/salat-s-rukkoloj.jpg",
+      "name": "Поке с Курицей",
+      "description": "Рис, яйцо пашот, Бобы эдамаме, куриная грудка, грибы Шампиньоны, томаты, огурец, спайси соус",
+      "price": 250,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 39,
+      "img": "https://wasabi.kg/wp-content/uploads/2021/07/rukkola-s-krevetkami.jpg",
+      "name": "Поке с Лососем",
+      "description": "Рис, лосось, Краб, чука, Бобы эдамаме, Томаты, Вакаме, соус понзу",
+      "price": 370,
+      "currency": "сом",
+      "category": "salads"
+    },
+    {
+      "id": 39,
+      "img": "https://api.papajohns.kg//images/catalog/thumbs/full/fe60ff7e4a5c546e80e72b032192a683.webp",
+      "name": "Рулетики с брусникой",
+      "description": "Сладкие рулетики с натуральной брусникой с шоколадной пастой под шоколадной крошкой",
+      "price": 159,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 40,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/956b9840408443948953aff5da6fdacc_292x292.jpeg",
+      "name": "Рулетики с корицей",
+      "description": "Сладкие рулетики с корицей, шоколадной крошкой",
+      "price": 199,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 41,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/f2d2b48c732f4603bdeef816cce7471b_292x292.jpeg",
+      "name": "Фондан",
+      "description": "Десерт с хрустящей корочкой и топлёной шоколадной начинкой",
+      "price": 149,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 42,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/10d465a5fbbe42e883e9e6da291e0fae_292x292.jpeg",
+      "name": "Чизкейк",
+      "description": "Классический американский чизкейк. Нежный десерт обладает в меру сладким бархатистым вкусом",
+      "price": 149,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 43,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/a6bdbd35098f482d861c71e6ea294bb3_292x292.jpeg",
+      "name": "Вишневый пирог",
+      "description": "Это не просто десерт, а вишенка на торте! Творожно-песочное тесто с ягодами, заварным кремом и лепестками миндаля.",
+      "price": 159,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 44,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/bbeb89c7389947c8b502d6ce62a2f6ad_292x292.jpeg",
+      "name": "2 Маффина",
+      "description": "Основное блюдо заканчивается, начинаются маффины с начинкой на шоколадной",
+      "price": 200,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 45,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/8b5aedf0062b4d85badd5f45e64f3c44_292x292.jpeg",
+      "name": "2 Кукиса ",
+      "description": "С одной стороны, кукис — это хорошо, а с другой — два еще лучше. ",
+      "price": 200,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 46,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/1af58f1f7c98475aaf3404d0590a4065_292x292.jpeg",
+      "name": "Сырники",
+      "description": "Сырники можно есть не только на завтрак. Нежные сырники со сгущенкой идеально сочетаются с любыми напитками",
+      "price": 370,
+      "currency": "сом",
+      "category": "desserts"
+    },
+    {
+      "id": 46,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/b5f113ca1255415a89e6c2b542484a27_292x292.jpeg",
+      "name": "Морс Вишня",
+      "description": "Напиток со вкусом ностальгии — летние каникулы, теплые ночи и уютные дачные посиделки.",
+      "price": 115,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 47,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/9bb37146e606409099fbffc1eef751d3_292x292.jpeg",
+      "name": "Морс Клюква",
+      "description": "Эта ягода хитра! Наш фирменный морс для любителей сладкой кислинки",
+      "price": 115,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 48,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/dca53185dd344518acfa07fa453160c9_292x292.jpeg",
+      "name": "Кока-кола",
+      "description": " Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 149,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 49,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/f043baaebf9444f7b703a3d63c507d2b_292x292.jpeg",
+      "name": "Морс Черная",
+      "description": "Для усиления ощущений от морса рекомендуем закрыть глаза и представить себя у бабушки в саду",
+      "price": 149,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 50,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/7f94b15a912f441c86b25d38b55c9530_292x292.jpeg",
+      "name": "Fanta",
+      "description": "Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 159,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 51,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/e2fcf524bce74544ba7915a74f485446_292x292.jpeg",
+      "name": "Кофе Американо",
+      "description": "Пара глотков горячего Американо, и вы будете готовы покорять этот день",
+      "price": 200,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 52,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/cf3414e1536b4fb0b715f68f9ec1793b_292x292.jpeg",
+      "name": "Sprite ",
+      "description": "Газированная вода, фосфорная кислота, заменитель сахара аспартам, бензонат натрия",
+      "price": 200,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 53,
+      "img": "https://cdn.dodostatic.net/static/Img/Products/af8e68f81761479b9e745f4592e67ef3_292x292.jpeg",
+      "name": "Кофе Латте",
+      "description": "Когда хочется нежную молочную пенку, на помощь приходит классический латте",
+      "price": 370,
+      "currency": "сом",
+      "category": "drinks"
+    },
+    {
+      "id": 54,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "name": "Сандерс Острый",
+      "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат, cочные острые стрипсы и легендарное куриное филе в острой панировке- лучше просто не бывает!",
+      "price": 149,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 55,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1861_1273143684.png",
+      "name": "Шефбургер Обычный",
+      "description": "Это сочные  оригинальные стрипсы в пшеничной булочке с черно-белым кунжутом, внуснейший салатик Айсберг, помидорки или соленые огурчики заправленные фирменными соусами.",
+      "price": 164,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 56,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "name": "Сандерс Обычный",
+      "description": "Сливочная булочка Бриошь, двойной сыр Чеддер, маринованные огурчики, хрустящий салат и легендарное куриное филе в оригинальной панировке- лучше просто не бывает!",
+      "price": 249,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 57,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1862_1078153301.png",
+      "name": "Шефбургер Острый",
+      "description": "«Шефбургер Джуниор Острый» – это сочные острые стрипсы в пшеничной булочке с черно-белым кунжутом, внуснейший салатик Айсберг, помидорки или соленые огурчики заправленные фирменными соусами.",
+      "price": 169,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 58,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1053_1385774525.png",
+      "name": "Ай-Твистер Чиз",
+      "description": "Вкус сочной курочки……с нежным сыром и сырным соусом в новом Ай-твистер Чиз в KFC! Сырные недели в KFC - настоящая любовь с первого кусочка!",
+      "price": 79,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 59,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_897_1014477979.png",
+      "name": "Твистер оригинальный",
+      "description": "Кусочки нежнейшего куриного филе в хрустящей острой или оригинальной панировке с сочными листьями салата, кусочками помидора и нежным соусом",
+      "price": 175,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 61,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1613_383704842.png",
+      "name": "Твистер Джуниор",
+      "description": "Сырная лепешка, два сочных оригинальных стрипса из куриного филе в панировке, горчица, кетчуп, сыр, маринованные огурчики и лук – идеальный перекус!",
+      "price": 129,
+      "currency": "сом",
+      "category": "burger-main"
+    },
+    {
+      "id": 62,
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_1868_1412785688.png",
+      "name": "Чикен Пита",
+      "description": "Хрустящая пита , с  вкуснейшими овощами, ароматными травами, оригинальным соусом и легендарное куриное филеприготовленное экспертами в курице – только в KFC!",
+      "price": 199,
+      "currency": "сом",
+      "category": "burger-main"
+    }
+  ],
+  "employess": [
+    {
+      "name": "sadfg",
+      "age": "21",
+      "wage": "149999",
+      "workplace": "4",
+      "experience": "Повар",
+      "img": "https://statickfc.cdnvideo.ru/products/small/product_2195_718473596.png",
+      "id": 1
+    }
+  ]
+}

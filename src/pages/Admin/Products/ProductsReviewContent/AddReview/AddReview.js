@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import styles from "./AddReview.module.css";
 import {toast, Toaster} from "react-hot-toast";
+import {Link} from "react-router-dom";
 
 const AddReview = () => {
 
@@ -68,6 +69,17 @@ const AddReview = () => {
                         </button>
                     </div>
                 </form>
+                <div className={styles.cartContinue}>
+                    <Link to="/">
+                        <svg width="32" height="60" viewBox="0 0 32 60" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.3343 59.9854C31.0544 59.9867 31.6393 59.4038 31.6406 58.6836C31.6412 58.3365 31.5033 58.0033 31.2575 57.7581L3.49025 29.9934L31.2575 2.22888C31.7674 1.71898 31.7674 0.892329 31.2575 0.382427C30.7476 -0.127476 29.9209 -0.127476 29.411 0.382427L0.723141 29.0703C0.214094 29.5795 0.214094 30.4049 0.723141 30.9142L29.411 59.602C29.6555 59.8473 29.9878 59.9854 30.3343 59.9854Z"
+                                fill="#3B7976"/>
+                        </svg>
+                        Вернуться на главную
+                    </Link>
+                </div>
                 <Toaster/>
             </div>
         </div>

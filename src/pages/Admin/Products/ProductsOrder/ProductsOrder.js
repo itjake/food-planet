@@ -56,9 +56,9 @@ const ProductsOrder = () => {
             <tr>
                 <td>{item.name}</td>
                 <td>{item.surname}</td>
+                <td>{item.phone}</td>
                 <td>{item.street}</td>
                 <td>{item.flat}</td>
-                <td>{}</td>
                 <td>
                     {
                         Object.values(item.order).map(item => {

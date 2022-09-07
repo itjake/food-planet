@@ -84,3 +84,18 @@
     padding-bottom: 10px;
 }
 
+.jones {
+    color: white;
+    font-family: "Roboto";
+    background: #3B7976;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 25%;
+}
+
+.jones p {
+    padding-top: 20px;
+}

@@ -22,7 +22,7 @@ const AddEmployees = () => {
             setWorkplace(e.currentTarget.value);
         } else if (e.currentTarget.id === "experience") {
             setExperience(e.currentTarget.value);
-        } else if (e.currentTarget.id === "experience") {
+        } else if (e.currentTarget.id === "img") {
             setImg(e.currentTarget.value);
         }
     };
@@ -93,7 +93,6 @@ const AddEmployees = () => {
                     </div>
                     <Toaster/>
                 </form>
-                <Toaster/>
             </div>
         </div>
     );

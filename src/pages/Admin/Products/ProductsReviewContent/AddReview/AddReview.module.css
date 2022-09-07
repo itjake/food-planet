@@ -68,3 +68,26 @@ button {
     color: white;
     margin-bottom: 10px;
 }
+
+.cartContinue {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.cartContinue a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #3B7976;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.cartContinue svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

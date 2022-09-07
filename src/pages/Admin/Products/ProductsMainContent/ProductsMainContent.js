@@ -22,8 +22,19 @@ const ProductsMainContent = (props) => {
         title = "Сотрудники";
     } else if (params.title === "update-review") {
         title = "Отзывы"
+    } else if (params.title === "update-menu") {
+        title = "Меню"
+    } else if (params.title === "update-contacts") {
+        title = "Контакты"
+    } else if (params.title === "update-employee") {
+        title = "Сотрудники"
     } else if (params.title === "main") {
         title = "Главная"
+    } else {
+        title = <div className={styles.jones}>
+            Добро пожаловать Jones Ferdinand.
+            <p>Выберите интересующий вас раздел</p>
+        </div>
     }
 
     return (<>

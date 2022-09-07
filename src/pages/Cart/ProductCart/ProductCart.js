@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import styles from "./ProductCart.module.css";
 import {Link} from "react-router-dom";
+import {toast} from "react-hot-toast";
 
 const ProductCart = () => {
 
@@ -19,21 +20,16 @@ const ProductCart = () => {
 
     const changeCount = (e, data) => {
         const cart = JSON.parse(localStorage.getItem('cart'));
-        if (e.currentTarget.value > 99) {
-            setIsDisabled(true);
-        } else if (e.currentTarget.value < 0) {
-            setIsDisabled(true);
-        } else {
-            cart[data.id].count = +e.currentTarget.value;
-        }
+        cart[data.id].count = +e.currentTarget.value;
+
         localStorage.setItem('cart', JSON.stringify(cart));
         getProducts();
     }
 
-    const deleteItem = (data) => {
-        let newCart = cart.filter(item => item.id !== data.id ? true : false);
-        localStorage.setItem('cart', JSON.stringify(newCart));
+    const deleteItem = (id) => {
+        let newCart = cart.filter(item => item.id !== id);
         setCart(newCart);
+        localStorage.setItem('cart', JSON.stringify(newCart));
         console.log(newCart)
     }
 
@@ -45,6 +41,7 @@ const ProductCart = () => {
         localStorage.setItem('total', cartItemsNumber);
     }
 
+
     useEffect(getProducts, [cart]);
 
     const newCart = cart.map(item => {
@@ -52,14 +49,14 @@ const ProductCart = () => {
                 <ul className={styles.cartProductItems}>
                     <li className={styles.products}><img src={item.img} className={styles.cartImg} alt=""/></li>
                     <li className={styles.products}>{item.name}</li>
-                    <li className={styles.products}><input disabled={isDisabled} className={styles.cartInput}
+                    <li className={styles.products}><input className={styles.cartInput}
                                                            type="number"
                                                            defaultValue={item.count}
                                                            onChange={(e) => changeCount(e, item)}/>
                     </li>
                     <li className={styles.productsSS}>{item.price} {item.currency}</li>
                     <li className={styles.productsS}>{item.count * item.price} сом</li>
-                    <button onClick={(e) => deleteItem(item)} className={styles.cartBtn}>
+                    <button onClick={() => deleteItem(item.id)} className={styles.cartBtn}>
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
